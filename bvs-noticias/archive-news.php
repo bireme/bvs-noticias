@@ -16,9 +16,6 @@
  * @since Twenty Fifteen 1.0
  */
 
-$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-query_posts( array( 'post_type' => 'any', 'cat' => $cat, 'paged' => $paged ) );
-
 get_header(); ?>
 
 	<div class="top_sidebar">
@@ -102,13 +99,14 @@ get_header(); ?>
 						</article>
 					<?php endwhile; ?>
 				</div>
-				
-				<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 
+				<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+				
 			</main><!-- .site-main -->
 		</section><!-- .content-area -->
 	</div>
 	<div class="column column_2">
 		<?php dynamic_sidebar( 'level2' ); ?>
 	</div>
+
 <?php get_footer(); ?>

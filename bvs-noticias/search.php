@@ -17,13 +17,12 @@
  */
 
 get_header(); ?>
-	
+
 	<div class="top_sidebar">
 		<div class="widget_search">
 			<?php get_search_form(); ?>
 		</div>
 	</div>
-	
 
 	<div class="column column_1">
 		<section id="primary" class="content-area">
@@ -114,4 +113,5 @@ get_header(); ?>
 	<div class="column column_2">
 		<?php dynamic_sidebar( 'level2' ); ?>
 	</div>
+
 <?php get_footer(); ?>

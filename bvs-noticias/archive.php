@@ -99,6 +99,9 @@ get_header(); ?>
 						</article>
 					<?php endwhile; ?>
 				</div>
+
+				<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+
 			</main><!-- .site-main -->
 		</section><!-- .content-area -->
 	</div>
