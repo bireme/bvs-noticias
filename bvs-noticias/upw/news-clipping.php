@@ -6,6 +6,10 @@
  */
 ?>
 
+<div class="rss-icn">
+  <a href="http://www.duplicator.dev/pt/feed"><i class="fa fa-rss-square"></i> <?php _e('RSS feed', 'bvs-noticias'); ?></a>
+</div>
+
 <?php if ($instance['before_posts']) : ?>
   <div class="upw-before">
     <?php echo wpautop($instance['before_posts']); ?>
@@ -84,9 +88,7 @@
               <div class="entry-summary">
                 <p>
                   <?php echo get_the_excerpt(); ?>
-                  <?php if ($instance['show_readmore']) : ?>
-                    <a href="<?php the_permalink(); ?>" class="more-link"><?php echo $instance['excerpt_readmore']; ?></a>
-                  <?php endif; ?>
+                  <a href="<?php the_permalink(); ?>" class="more-link"><?php echo $instance['show_readmore'] ? $instance['excerpt_readmore'] : _e('Read more', 'bvs-noticias'); ?></a>
                 </p>
               </div>
             <?php elseif ($instance['show_content']) : ?>
@@ -171,9 +173,6 @@
 
   <?php endif; ?>
 
-
-  
-
 </div>
 
 <?php if ($instance['after_posts']) : ?>
@@ -181,3 +180,5 @@
     <?php echo wpautop($instance['after_posts']); ?>
   </div>
 <?php endif; ?>
+
+<div class="all-posts"><a href=""><?php _e('See all', 'bvs-noticias'); ?></a></div>
