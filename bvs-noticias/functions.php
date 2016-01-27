@@ -164,6 +164,17 @@ if(function_exists("register_field_group"))
                 'name' => 'fonte',
                 'type' => 'taxonomy',
                 'required' => 1,
+                'conditional_logic' => array (
+                    'status' => 1,
+                    'rules' => array (
+                        array (
+                            'field' => 'field_55e599bf48c4d',
+                            'operator' => '==',
+                            'value' => 'clipping',
+                        ),
+                    ),
+                    'allorany' => 'all',
+                ),
                 'taxonomy' => 'news-source',
                 'field_type' => 'select',
                 'allow_null' => 1,
