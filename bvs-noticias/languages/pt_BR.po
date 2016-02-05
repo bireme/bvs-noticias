@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-01-26 13:55-0200\n"
+"PO-Revision-Date: 2016-01-26 13:56-0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;_\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: bvs-noticias\n"
+
+#: bvs-noticias/archive-news.php:71 bvs-noticias/archive.php:71
+#: bvs-noticias/category.php:74 bvs-noticias/page.php:67
+#: bvs-noticias/search.php:67 bvs-noticias/single.php:124
+#: bvs-noticias/tag.php:74 bvs-noticias/upw/news-clipping.php:102
+#: bvs-noticias/upw/news-clipping.php:112
+msgid "Sources"
+msgstr "Fontes"
+
+#: bvs-noticias/archive-news.php:80 bvs-noticias/archive.php:80
+#: bvs-noticias/category.php:83 bvs-noticias/page.php:76
+#: bvs-noticias/search.php:76 bvs-noticias/single.php:133
+#: bvs-noticias/tag.php:83 bvs-noticias/upw/level2.php:72
+#: bvs-noticias/upw/news-clipping.php:122
+msgid "Categories"
+msgstr "Categorias"
+
+#: bvs-noticias/archive-news.php:90 bvs-noticias/archive.php:90
+#: bvs-noticias/category.php:93 bvs-noticias/page.php:86
+#: bvs-noticias/search.php:86 bvs-noticias/single.php:143
+#: bvs-noticias/tag.php:93 bvs-noticias/upw/news-clipping.php:132
+msgid "Tags"
+msgstr "Tags"
+
+#: bvs-noticias/content.php:37 bvs-noticias/page.php:48
+#: bvs-noticias/single.php:48
+msgid "Featured post"
+msgstr "Posts em destaque"
+
+#: bvs-noticias/content.php:45
+#, php-format
+msgid "Permalink to %s"
+msgstr "Links permanentes para %s"
+
+#: bvs-noticias/content.php:50
+msgid "Leave a reply"
+msgstr "Deixar um comentário"
+
+#: bvs-noticias/content.php:50
+msgid "1 Reply"
+msgstr "1 Comentário"
+
+#: bvs-noticias/content.php:50
+msgid "% Replies"
+msgstr "% Comentários"
+
+#: bvs-noticias/content.php:68
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar lendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: bvs-noticias/content.php:69
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: bvs-noticias/search.php:100 twentyfifteen/content-none.php:15
+#: twentyfourteen/content-none.php:12 twentythirteen/content-none.php:12
+msgid "Nothing Found"
+msgstr "Nenhum conteúdo encontrado"
+
+#: bvs-noticias/search.php:104
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Lamentamos, não houve resultados para sua busca. Por favor, tente novamente "
+"com outra palavra."
+
+#: bvs-noticias/upw/level2.php:44 bvs-noticias/upw/level2.php:57
+#: bvs-noticias/upw/news-clipping.php:36 bvs-noticias/upw/news-clipping.php:49
+msgid "|"
+msgstr "|"
+
+#: bvs-noticias/upw/level2.php:110
+msgid "Tagged"
+msgstr "com a(s) Tag(s):"
+
+#: bvs-noticias/upw/level2.php:149 bvs-noticias/upw/news-clipping.php:177
+msgid "No posts found."
+msgstr "Nenhum post encontrado."
+
+#: twentyfifteen/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Esta página não foi encontrada"
+
+#: twentyfifteen/404.php:21 twentyfourteen/404.php:21 twentythirteen/404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que nada foi encontrado. Que tal tentar uma nova busca?"
+
+#: twentyfifteen/author-bio.php:12
+msgid "Published by"
+msgstr "Publicado por"
+
+#: twentyfifteen/comments.php:53 twentyfourteen/comments.php:59
+#: twentythirteen/comments.php:52
+msgid "Comments are closed."
+msgstr "Comentários então fechados."
+
+#: twentyfifteen/content-none.php:26 twentyfourteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lamentamos, não houve resultados para sua busca. Por favor, tente novamente "
+"com outra palavra."
+
+#: twentyfifteen/content-none.php:31 twentyfourteen/content-none.php:27
+#: twentythirteen/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que não pudemos encontrar o que você procura. Talvez realizar uma "
+"pesquisa possa ajuda-lo."
+
+#: twentyfifteen/header.php:26 twentyfourteen/header.php:53
+#: twentythirteen/header.php:44
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#: twentyfifteen/header.php:43
+msgid "Menu and widgets"
+msgstr "Menu e widgets"
+
+#: twentyfifteen/inc/template-tags.php:23 twentyfourteen/comments.php:34
+#: twentyfourteen/comments.php:52 twentythirteen/comments.php:45
+msgid "Comment navigation"
+msgstr "Navegar pelos comentários"
+
+#: twentyfourteen/404.php:17 twentythirteen/404.php:16
+msgid "Not Found"
+msgstr "Nenhum conteúdo encontrado"
+
+#: twentyfourteen/archive.php:40 twentyfourteen/taxonomy-post_format.php:51
+#: twentythirteen/archive.php:35
+msgid "Archives"
+msgstr "Arquivos"
+
+#: twentyfourteen/header.php:48
+msgid "Search"
+msgstr "Pesquisa"
+
+#: twentyfourteen/header.php:52
+msgid "Primary Menu"
+msgstr "Menu primario"
+
+#: twentyfourteen/inc/template-tags.php:58 twentythirteen/functions.php:266
+msgid "Posts navigation"
+msgstr "Navegação nos posts"
+
+#: twentyfourteen/inc/template-tags.php:85 twentythirteen/functions.php:300
+msgid "Post navigation"
+msgstr "Navegação nos posts"
+
+#: twentyfourteen/inc/widgets.php:255
+msgid "Title:"
+msgstr "Título:"
+
+#: twentyfourteen/inc/widgets.php:258
+msgid "Number of posts to show:"
+msgstr "Número de posts para exibir:"
+
+#: twentyfourteen/inc/widgets.php:261
+msgid "Post format to show:"
+msgstr "Formato do post para exibir:"
+
+#: twentyfourteen/taxonomy-post_format.php:30
+msgid "Asides"
+msgstr "Barras laterais"
+
+#: twentyfourteen/taxonomy-post_format.php:33
+msgid "Images"
+msgstr "Imagens"
+
+#: twentyfourteen/taxonomy-post_format.php:36
+msgid "Videos"
+msgstr "Vídeos"
+
+#: twentyfourteen/taxonomy-post_format.php:39
+msgid "Audio"
+msgstr "Áudios"
+
+#: twentyfourteen/taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr "Citações"
+
+#: twentyfourteen/taxonomy-post_format.php:45
+msgid "Links"
+msgstr "Links"
+
+#: twentyfourteen/taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr "Galerias"
+
+#: twentythirteen/404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Isso é um pouco constrangedor, não é?"
+
+#: twentythirteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Lamentamos, não houve resultados para sua busca. Por favor, tente novamente "
+"com outra palavra."
+
+#: twentythirteen/header.php:43
+msgid "Menu"
+msgstr "Menu"
