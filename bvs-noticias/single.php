@@ -39,7 +39,7 @@
 						</div>
 						<?php if ( comments_open() ) : ?>
 							<div class="comments-link">
-								<i class="fa fa-comment reply-icn"></i> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentytwelve' ) . '</span>', __( '1 Reply', 'twentytwelve' ), __( '% Replies', 'twentytwelve' ) ); ?> 
+								<i class="fa fa-comment reply-icn"></i> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'bvs-noticias' ) . '</span>', __( '1 Reply', 'bvs-noticias' ), __( '% Replies', 'bvs-noticias' ) ); ?> 
 							</div><!-- .comments-link -->
 						<?php endif; // comments_open() ?>
 						<div class="spacer"></div>
@@ -153,8 +153,8 @@
 					</article>
 					<div class="v-nav">
 						<?php the_post_navigation( array(
-							'prev_text' => '<div class="meta-nav" aria-hidden="true">' . __( '<< Anterior', 'twentyfifteen' ) . '</div> ',
-							'next_text' => '<div class="meta-nav" aria-hidden="true">' . __( 'Próximo >>', 'twentyfifteen' ) . '</div> ',
+							'prev_text' => '<div class="meta-nav" aria-hidden="true">' . __( '<< Previous', 'bvs-noticias' ) . '</div> ',
+							'next_text' => '<div class="meta-nav" aria-hidden="true">' . __( 'Next >>', 'bvs-noticias' ) . '</div> ',
 							) );
 						?>
 					</div>

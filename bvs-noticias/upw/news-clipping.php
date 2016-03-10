@@ -6,9 +6,11 @@
  */
 ?>
 
-<div class="rss-icn">
-  <a href="http://www.duplicator.dev/pt/feed"><i class="fa fa-rss-square"></i> <?php _e('RSS feed', 'bvs-noticias'); ?></a>
-</div>
+<?php if (in_array('news', $upw_query->query_vars['post_type'])): ?>
+  <div class="rss-icn">
+    <a href="<?php echo get_post_type_archive_feed_link('news'); ?>"><i class="fa fa-rss-square"></i> <?php _e('RSS feed', 'bvs-noticias'); ?></a>
+  </div>
+<?php endif; ?>
 
 <?php if ($instance['before_posts']) : ?>
   <div class="upw-before">
@@ -181,4 +183,6 @@
   </div>
 <?php endif; ?>
 
-<div class="all-posts"><a href=""><?php _e('See all', 'bvs-noticias'); ?></a></div>
+<?php if ($upw_query->query_vars['posts_per_page'] < $upw_query->found_posts): ?>
+  <div class="all-posts"><a href="<?php echo get_post_type_archive_link('news'); ?>"><?php _e('See all', 'bvs-noticias'); ?></a></div>
+<?php endif; ?>
