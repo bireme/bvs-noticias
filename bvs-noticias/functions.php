@@ -46,7 +46,7 @@ function custom_reply_link_args($args){
     return $args;
 }
 add_filter('comment_reply_link_args', 'custom_reply_link_args');
-/*
+
 add_action( 'init', 'register_cpt_news' );
 function register_cpt_news() {
     $labels = array(
@@ -288,5 +288,5 @@ if(function_exists("register_field_group"))
         'menu_order' => 0,
     ));
 }
-*/
+
 ?>
