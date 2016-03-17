@@ -8,7 +8,7 @@
 
 <?php if (in_array('news', $upw_query->query_vars['post_type'])): ?>
   <div class="rss-icn">
-    <a href="<?php echo get_post_type_archive_feed_link('news'); ?>"><i class="fa fa-rss-square"></i> <?php _e('RSS feed', 'bvs-noticias'); ?></a>
+    <a href="<?php echo get_post_type_archive_feed_link('news'); ?>"><i class="fa fa-rss-square"></i> <?php _e('RSS feed', 'bvsnoticias'); ?></a>
   </div>
 <?php endif; ?>
 
@@ -39,12 +39,12 @@
                 <?php endif; ?>
 
                 <?php if ($instance['show_date'] && $instance['show_author']) : ?>
-                  <span class="sep"><?php _e('|', 'upw'); ?></span>
+                  <span class="sep"><?php _e('|', 'bvsnoticias'); ?></span>
                 <?php endif; ?>
 
                 <?php if ($instance['show_author']) : ?>
                   <span class="author vcard">
-                    <?php echo __('By', 'upw'); ?>
+                    <?php echo __('By', 'bvsnoticias'); ?>
                     <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" rel="author" class="fn">
                       <?php echo get_the_author(); ?>
                     </a>
@@ -52,12 +52,12 @@
                 <?php endif; ?>
 
                 <?php if ($instance['show_author'] && $instance['show_comments']) : ?>
-                  <span class="sep"><?php _e('|', 'upw'); ?></span>
+                  <span class="sep"><?php _e('|', 'bvsnoticias'); ?></span>
                 <?php endif; ?>
 
                 <?php if ($instance['show_comments']) : ?>
                   <a class="comments" href="<?php comments_link(); ?>">
-                    <?php comments_number(__('No comments', 'upw'), __('One comment', 'upw'), __('% comments', 'upw')); ?>
+                    <?php comments_number(__('No comments', 'bvsnoticias'), __('One comment', 'bvsnoticias'), __('% comments', 'bvsnoticias')); ?>
                   </a>
                 <?php endif; ?>
 
@@ -90,7 +90,7 @@
               <div class="entry-summary">
                 <p>
                   <?php echo get_the_excerpt(); ?>
-                  <a href="<?php the_permalink(); ?>" class="more-link"><?php echo $instance['show_readmore'] ? $instance['excerpt_readmore'] : _e('Read more', 'bvs-noticias'); ?></a>
+                  <a href="<?php the_permalink(); ?>" class="more-link"><?php echo $instance['show_readmore'] ? $instance['excerpt_readmore'] : _e('Read more', 'bvsnoticias'); ?></a>
                 </p>
               </div>
             <?php elseif ($instance['show_content']) : ?>
@@ -105,7 +105,7 @@
               if ($instance['show_cats'] && $sources) :
             ?>
               <div class="entry-news-sources">
-                <strong class="entry-source-label"><?php _e('Sources', 'upw'); ?>:</strong>
+                <strong class="entry-source-label"><?php _e('Sources', 'bvsnoticias'); ?>:</strong>
                 <span class="entry-source-list"><?php echo $sources; ?></span>
               </div>
             <?php endif; ?>
@@ -115,7 +115,7 @@
             if ($instance['show_cats'] && $categories) :
             ?>
               <div class="entry-categories">
-                <strong class="entry-cats-label"><?php _e('Categories', 'upw'); ?>:</strong>
+                <strong class="entry-cats-label"><?php _e('Categories', 'bvsnoticias'); ?>:</strong>
                 <span class="entry-cats-list"><?php echo $categories; ?></span>
               </div>
             <?php endif; ?>
@@ -125,7 +125,7 @@
             if ($instance['show_tags'] && $tags) :
             ?>
               <div class="entry-tags">
-                <strong class="entry-tags-label"><?php _e('Tags', 'upw'); ?>:</strong>
+                <strong class="entry-tags-label"><?php _e('Tags', 'bvsnoticias'); ?>:</strong>
                 <span class="entry-tags-list"><?php echo $tags; ?></span>
               </div>
             <?php endif; ?>
@@ -170,7 +170,7 @@
   <?php else : ?>
 
     <p class="upw-not-found">
-      <?php _e('No posts found.', 'upw'); ?>
+      <?php _e('No posts found.', 'bvsnoticias'); ?>
     </p>
 
   <?php endif; ?>
@@ -184,5 +184,5 @@
 <?php endif; ?>
 
 <?php if ($upw_query->query_vars['posts_per_page'] < $upw_query->found_posts): ?>
-  <div class="all-posts"><a href="<?php echo get_post_type_archive_link('news'); ?>"><?php _e('See all', 'bvs-noticias'); ?></a></div>
+  <div class="all-posts"><a href="<?php echo get_post_type_archive_link('news'); ?>"><?php _e('See all', 'bvsnoticias'); ?></a></div>
 <?php endif; ?>

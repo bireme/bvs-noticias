@@ -1,5 +1,10 @@
 <?php
 
+function load_translation(){
+    load_textdomain( 'bvsnoticias',  get_stylesheet_directory().'/languages/bvsnoticias-'.get_locale().'.mo' );
+}
+add_action( 'after_setup_theme', 'load_translation' );
+
 function the_titlesmall($before = '', $after = '', $echo = true, $length = false) {
 	$title = get_the_title();
 
@@ -36,6 +41,12 @@ function custom_posts_per_page( $query ) {
 }
 add_filter('parse_query', 'custom_posts_per_page');
 
+function custom_reply_link_args($args){
+    $args['reply_text'] = __( 'Reply', 'bvsnoticias' );
+    return $args;
+}
+add_filter('comment_reply_link_args', 'custom_reply_link_args');
+/*
 add_action( 'init', 'register_cpt_news' );
 function register_cpt_news() {
     $labels = array(
@@ -277,5 +288,5 @@ if(function_exists("register_field_group"))
         'menu_order' => 0,
     ));
 }
-
+*/
 ?>

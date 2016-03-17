@@ -29,7 +29,7 @@ get_header(); ?>
 			<main id="main" class="site-main" role="main">
 				<header class="page-header">
 					<a class="link-to-home" href="<?php echo get_bloginfo( 'url' )?>">Home</a> / 
-					<?php printf( __( 'Search Results for: %s', 'bvs-noticias' ), '<strong class="page-title">' . get_search_query() . '</strong>' ); ?>
+					<?php printf( __( 'Search Results for: %s', 'bvsnoticias' ), '<strong class="page-title">' . get_search_query() . '</strong>' ); ?>
 				</header><!-- .page-header -->
 				<div class="article-list">
 					<?php if ( have_posts() ) : ?>
@@ -64,7 +64,7 @@ get_header(); ?>
 										$sources = get_the_term_list($post->ID, 'news-source', '', ', '); 
 										if ($sources) : ?>
 							            <div class="entry-news-sources">
-							            	<strong class="entry-source-label"><?php _e('Sources', 'bvs-noticias'); ?>:</strong>
+							            	<strong class="entry-source-label"><?php _e('Sources', 'bvsnoticias'); ?>:</strong>
 							            	<span class="entry-source-list"><?php echo $sources; ?></span>
 							            </div>
 							        <?php endif; ?>
@@ -73,7 +73,7 @@ get_header(); ?>
 										if ($categories) :
 									?>
 										<div class="entry-categories">
-											<strong class="entry-cats-label"><?php _e('Categories', 'bvs-noticias'); ?>:</strong>
+											<strong class="entry-cats-label"><?php _e('Categories', 'bvsnoticias'); ?>:</strong>
 											<span class="entry-cats-list"><?php echo $categories; ?></span>
 										</div>
 									<?php endif; ?>
@@ -83,7 +83,7 @@ get_header(); ?>
 										if ($tags) :
 						            ?>
 										<div class="entry-tags">
-											<strong class="entry-tags-label"><?php _e('Tags', 'bvs-noticias'); ?>:</strong>
+											<strong class="entry-tags-label"><?php _e('Tags', 'bvsnoticias'); ?>:</strong>
 						                <span class="entry-tags-list"><?php echo $tags; ?></span>
 						              </div>
 						            <?php endif; ?>
@@ -97,11 +97,11 @@ get_header(); ?>
 						<?php else : ?>
 							<article id="post-0" class="post no-results not-found">
 								<header class="entry-header">
-									<h1 class="entry-title"><?php _e( 'Nothing Found', 'twentytwelve' ); ?></h1>
+									<h1 class="entry-title"><?php _e( 'Nothing Found', 'bvsnoticias' ); ?></h1>
 								</header>
 
 								<div class="entry-content">
-									<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentytwelve' ); ?></p>
+									<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'bvsnoticias' ); ?></p>
 								</div><!-- .entry-content -->
 
 							</article><!-- #post-0 -->

@@ -39,13 +39,13 @@
 						</div>
 						<?php if ( comments_open() ) : ?>
 							<div class="comments-link">
-								<i class="fa fa-comment reply-icn"></i> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentytwelve' ) . '</span>', __( '1 Reply', 'twentytwelve' ), __( '% Replies', 'twentytwelve' ) ); ?> 
+								<i class="fa fa-comment reply-icn"></i> <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'bvsnoticias' ) . '</span>', __( '1 Reply', 'bvsnoticias' ), __( '% Replies', 'bvsnoticias' ) ); ?> 
 							</div><!-- .comments-link -->
 						<?php endif; // comments_open() ?>
 						<div class="spacer"></div>
 						<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 						<div class="featured-post">
-							<?php _e( 'Featured post', 'twentytwelve' ); ?>
+							<?php _e( 'Featured post', 'bvsnoticias' ); ?>
 						</div>
 						<?php endif; ?>
 						<header class="entry-header">
@@ -53,7 +53,7 @@
 							<strong class="entry-title"><?php the_title(); ?></strong>
 							<?php else : ?>
 							<strong class="entry-title">
-								<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
+								<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'bvsnoticias' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
 							</strong	>
 							<?php endif; // is_single() ?>
 						</header><!-- .entry-header -->
@@ -64,7 +64,7 @@
 								$sources = get_the_term_list($post->ID, 'news-source', '', ', '); 
 								if ($sources) : ?>
 					            <div class="entry-news-sources">
-					            	<strong class="entry-source-label"><?php _e('Sources', 'bvs-noticias'); ?>:</strong>
+					            	<strong class="entry-source-label"><?php _e('Sources', 'bvsnoticias'); ?>:</strong>
 					            	<span class="entry-source-list"><?php echo $sources; ?></span>
 					            </div>
 					        <?php endif; ?>
@@ -73,7 +73,7 @@
 								if ($categories) :
 							?>
 								<div class="entry-categories">
-									<strong class="entry-cats-label"><?php _e('Categories', 'bvs-noticias'); ?>:</strong>
+									<strong class="entry-cats-label"><?php _e('Categories', 'bvsnoticias'); ?>:</strong>
 									<span class="entry-cats-list"><?php echo $categories; ?></span>
 								</div>
 							<?php endif; ?>
@@ -83,7 +83,7 @@
 								if ($tags) :
 				            ?>
 								<div class="entry-tags">
-									<strong class="entry-tags-label"><?php _e('Tags', 'bvs-noticias'); ?>:</strong>
+									<strong class="entry-tags-label"><?php _e('Tags', 'bvsnoticias'); ?>:</strong>
 				                <span class="entry-tags-list"><?php echo $tags; ?></span>
 				              </div>
 				            <?php endif; ?>
@@ -107,8 +107,8 @@
 									</span>
 								</div>
 							<? endif; ?>
-						    <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
-							<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
+						    <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'bvsnoticias' ) ); ?>
+							<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'bvsnoticias' ), 'after' => '</div>' ) ); ?>
 				 		        <div class="childPages">
 				                    <ul>
 				                    <?php

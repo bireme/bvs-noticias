@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin BVS Notícias\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-17 11:16-0300\n"
+"PO-Revision-Date: 2016-03-17 11:16-0300\n"
+"Last-Translator: Wilson Moura <mourawil@paho.org>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:45
+msgid "Reply"
+msgstr ""
+
+#: page.php:42
+#: single.php:42
+msgid "Leave a reply"
+msgstr ""
+
+#: page.php:42
+#: single.php:42
+msgid "1 Reply"
+msgstr ""
+
+#: page.php:42
+#: single.php:42
+msgid "% Replies"
+msgstr ""
+
+#: page.php:48
+#: single.php:48
+msgid "Featured post"
+msgstr ""
+
+#: page.php:56
+#: single.php:56
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: page.php:67
+#: category.php:74
+#: archive.php:71
+#: single.php:124
+#: search.php:67
+#: tag.php:74
+#: archive-news.php:71
+#: upw/news-clipping.php:108
+msgid "Sources"
+msgstr ""
+
+#: page.php:76
+#: category.php:83
+#: archive.php:80
+#: single.php:133
+#: search.php:76
+#: tag.php:83
+#: archive-news.php:80
+#: upw/level2.php:78
+#: upw/news-clipping.php:118
+msgid "Categories"
+msgstr ""
+
+#: page.php:86
+#: category.php:93
+#: archive.php:90
+#: single.php:143
+#: search.php:86
+#: tag.php:93
+#: archive-news.php:90
+#: upw/news-clipping.php:128
+msgid "Tags"
+msgstr ""
+
+#: page.php:110
+#: single.php:79
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: page.php:111
+#: single.php:80
+msgid "Pages:"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: searchform.php:4
+msgid "Search news:"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search news"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search News:"
+msgstr ""
+
+#: searchform.php:7
+msgid "Search"
+msgstr ""
+
+#: single.php:156
+msgid "<< Previous"
+msgstr ""
+
+#: single.php:157
+msgid "Next >>"
+msgstr ""
+
+#: search.php:32
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:100
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:104
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: upw/level2.php:11
+#: upw/news-clipping.php:11
+msgid "RSS feed"
+msgstr ""
+
+#: upw/level2.php:50
+#: upw/level2.php:63
+#: upw/news-clipping.php:42
+#: upw/news-clipping.php:55
+msgid "|"
+msgstr ""
+
+#: upw/level2.php:55
+#: upw/news-clipping.php:47
+msgid "By"
+msgstr ""
+
+#: upw/level2.php:68
+#: upw/news-clipping.php:60
+msgid "No comments"
+msgstr ""
+
+#: upw/level2.php:68
+#: upw/news-clipping.php:60
+msgid "One comment"
+msgstr ""
+
+#: upw/level2.php:68
+#: upw/news-clipping.php:60
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: upw/level2.php:116
+msgid "Tagged"
+msgstr ""
+
+#: upw/level2.php:155
+#: upw/news-clipping.php:173
+msgid "No posts found."
+msgstr ""
+
+#: upw/level2.php:169
+#: upw/news-clipping.php:187
+msgid "See all"
+msgstr ""
+
+#: upw/news-clipping.php:93
+msgid "Read more"
+msgstr ""
+
