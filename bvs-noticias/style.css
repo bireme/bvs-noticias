@@ -129,7 +129,6 @@ button, input, textarea {border: 1px solid #5B85C5;}
 .addthis_toolbox {display:inline-block;}
 .column_2 .addthis_toolbox {display: none;}
 .top_sidebar { clear: both; }
-.headerWidget { clear: both; }
 
 @media (max-width: 480px) {
 	.thumb-img {width: 33%}
