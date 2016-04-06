@@ -1,5 +1,17 @@
 <?php
 
+if ( function_exists('register_sidebar') ) {
+    register_sidebar( array(
+            'name' => __('Logo and Banner', 'bvsnoticias'),
+            'id' => 'logo_banner',
+            'description' => '',
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget' => '</div>',
+            'before_title' => '<strong class="widget-title" style="display: none;">',
+            'after_title' => '</strong>',
+    ) );
+}
+
 function load_translation(){
     load_textdomain( 'bvsnoticias',  get_stylesheet_directory().'/languages/bvsnoticias-'.get_locale().'.mo' );
 }
