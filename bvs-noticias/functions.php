@@ -301,4 +301,6 @@ if(function_exists("register_field_group"))
     ));
 }
 
+include_once('advanced-custom-fields/acf.php');
+
 ?>
