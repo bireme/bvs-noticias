@@ -26,6 +26,9 @@ Tags: three-columns, right-sidebar
 .site_name {font-size: 200% !important;margin-left: 15px;}
 .site_name a {color:#005BA0;text-decoration: none;}
 .headerWidget {margin: 4px 8px 0 0 !important;}
+/*.headerWidget li.lang-item {display: inline-block;margin-right:4px;}*/
+/*.headerWidget li.lang-item:after {content:'|';}*/
+/*.headerWidget li.lang-item:last-child:after {content:'';}*/
 .headerWidget a {text-decoration: none;}
 .widget_nav_menu {border-top: 1px solid #005BA0;border-bottom: 1px solid #005BA0;background-color: #F3FBFF;}
 .widget_nav_menu ul li {display: inline-block;}
