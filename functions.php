@@ -59,12 +59,6 @@ function custom_reply_link_args($args){
 }
 add_filter('comment_reply_link_args', 'custom_reply_link_args');
 
-// function custom_edit_comment_link( $output ) {
-//     return preg_replace( '/Edit/', __( 'Edit', 'bvsnoticias' ), $output, 1 );
-// }
-// add_filter( 'edit_comment_link', 'custom_edit_comment_link' );
-
-/*
 add_action( 'init', 'register_cpt_news' );
 function register_cpt_news() {
     $labels = array(
@@ -306,7 +300,6 @@ if(function_exists("register_field_group"))
         'menu_order' => 0,
     ));
 }
-*/
 
 include_once('advanced-custom-fields/acf.php');
 
