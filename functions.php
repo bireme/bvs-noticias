@@ -1,5 +1,30 @@
 <?php
 
+add_filter('acf/helpers/get_path', 'helpers_get_path', 1, 1);
+add_filter('acf/helpers/get_dir', 'helpers_get_dir', 1, 1);
+
+if ( ! function_exists('helpers_get_path') ) {
+    function helpers_get_path( $file )
+    {
+        if ( is_link(get_stylesheet_directory()) )
+            $file = get_stylesheet_directory().'/advanced-custom-fields/acf.php';
+        
+        return trailingslashit(dirname($file));
+    }
+}
+
+if ( ! function_exists('helpers_get_dir') ) {
+    function helpers_get_dir( $file )
+    {   
+        if ( is_link(get_stylesheet_directory()) )
+            $file = get_stylesheet_directory().'/advanced-custom-fields/acf.php';
+        
+        return $file;
+    }
+}
+
+include_once( 'advanced-custom-fields/acf.php' );
+
 if ( function_exists('register_sidebar') ) {
     register_sidebar( array(
             'name' => __('Logo and Banner', 'bvsnoticias'),
@@ -300,7 +325,5 @@ if(function_exists("register_field_group"))
         'menu_order' => 0,
     ));
 }
-
-include_once('advanced-custom-fields/acf.php');
 
 ?>
