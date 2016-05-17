@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin BVS Notícias\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-06 17:25-0300\n"
+"PO-Revision-Date: 2016-05-13 15:23-0300\n"
+"Last-Translator: Wilson Moura <mourawil@paho.org>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;_;__;_n:1,2;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:5
+msgid "Logo and Banner"
+msgstr "Logo e Banner"
+
+#: functions.php:57
+msgid "Reply"
+msgstr "Responder"
+
+#: page.php:42
+#: single.php:42
+msgid "Leave a reply"
+msgstr "Deixar um comentário"
+
+#: page.php:42
+#: single.php:42
+msgid "1 Reply"
+msgstr "1 Comentário"
+
+#: page.php:42
+#: single.php:42
+msgid "% Replies"
+msgstr "% Comentários"
+
+#: page.php:48
+#: single.php:48
+msgid "Featured post"
+msgstr "Posts em destaque"
+
+#: page.php:56
+#: single.php:56
+#, php-format
+msgid "Permalink to %s"
+msgstr "Links permanentes para %s"
+
+#: page.php:67
+#: category.php:74
+#: archive.php:71
+#: single.php:124
+#: search.php:67
+#: tag.php:74
+#: archive-news.php:71
+#: upw/news-clipping.php:108
+msgid "Sources"
+msgstr "Fontes"
+
+#: page.php:76
+#: category.php:83
+#: archive.php:80
+#: single.php:133
+#: search.php:76
+#: tag.php:83
+#: archive-news.php:80
+#: upw/level2.php:78
+#: upw/news-clipping.php:118
+msgid "Categories"
+msgstr "Categorias"
+
+#: page.php:86
+#: category.php:93
+#: archive.php:90
+#: single.php:143
+#: search.php:86
+#: tag.php:93
+#: archive-news.php:90
+#: upw/news-clipping.php:128
+msgid "Tags"
+msgstr "Tags"
+
+#: page.php:110
+#: single.php:79
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar lendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: page.php:111
+#: single.php:80
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Um comentário em &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentários em &ldquo;%2$s&rdquo;"
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr "Navegar pelos comentários"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentários mais antigos"
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "Comentários mais recentes &rarr;"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "Comentários então fechados."
+
+#: searchform.php:4
+msgid "Search news:"
+msgstr "Pesquisar notícias:"
+
+#: searchform.php:5
+msgid "Search news"
+msgstr "Pesquisar notícias"
+
+#: searchform.php:5
+msgid "Search News:"
+msgstr "Pesquisar Notícias:"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "Pesquisar"
+
+#: header.php:83
+msgid "VHL Logo"
+msgstr "Logo BVS"
+
+#: single.php:156
+msgid "<< Previous"
+msgstr "<< Anterior"
+
+#: single.php:157
+msgid "Next >>"
+msgstr "Próximo >>"
+
+#: search.php:32
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultados para: %s"
+
+#: search.php:100
+msgid "Nothing Found"
+msgstr "Nenhum conteúdo encontrado"
+
+#: search.php:104
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Lamentamos, não houve resultados para sua busca. Por favor, tente novamente com outra palavra."
+
+#: upw/level2.php:11
+#: upw/news-clipping.php:11
+msgid "RSS feed"
+msgstr "RSS Feed"
+
+#: upw/level2.php:50
+#: upw/level2.php:63
+#: upw/news-clipping.php:42
+#: upw/news-clipping.php:55
+msgid "|"
+msgstr "|"
+
+#: upw/level2.php:55
+#: upw/news-clipping.php:47
+msgid "By"
+msgstr "Por"
+
+#: upw/level2.php:68
+#: upw/news-clipping.php:60
+msgid "No comments"
+msgstr "Nenhum comentário"
+
+#: upw/level2.php:68
+#: upw/news-clipping.php:60
+msgid "One comment"
+msgstr "Um comentário"
+
+#: upw/level2.php:68
+#: upw/news-clipping.php:60
+#, php-format
+msgid "% comments"
+msgstr "% comentários"
+
+#: upw/level2.php:116
+msgid "Tagged"
+msgstr "com a(s) Tag(s):"
+
+#: upw/level2.php:155
+#: upw/news-clipping.php:173
+msgid "No posts found."
+msgstr "Nenhum post encontrado."
+
+#: upw/level2.php:169
+#: upw/news-clipping.php:187
+msgid "See all"
+msgstr "Ver todos"
+
+#: upw/news-clipping.php:93
+msgid "Read more"
+msgstr "Leia mais"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "Oops! Esta página não foi encontrada"
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try a search?"
+#~ msgstr "Parece que nada foi encontrado. Que tal tentar uma nova busca?"
+
+#~ msgid "Published by"
+#~ msgstr "Publicado por"
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "Lamentamos, não houve resultados para sua busca. Por favor, tente "
+#~ "novamente com outra palavra."
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Parece que não pudemos encontrar o que você procura. Talvez realizar uma "
+#~ "pesquisa possa ajuda-lo."
+
+#~ msgid "Skip to content"
+#~ msgstr "Pular para o conteúdo"
+
+#~ msgid "Menu and widgets"
+#~ msgstr "Menu e widgets"
+
+#~ msgid "Not Found"
+#~ msgstr "Nenhum conteúdo encontrado"
+
+#~ msgid "Archives"
+#~ msgstr "Arquivos"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Menu primario"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navegação nos posts"
+
+#~ msgid "Post navigation"
+#~ msgstr "Navegação nos posts"
+
+#~ msgid "Title:"
+#~ msgstr "Título:"
+
+#~ msgid "Number of posts to show:"
+#~ msgstr "Número de posts para exibir:"
+
+#~ msgid "Post format to show:"
+#~ msgstr "Formato do post para exibir:"
+
+#~ msgid "Asides"
+#~ msgstr "Barras laterais"
+
+#~ msgid "Images"
+#~ msgstr "Imagens"
+
+#~ msgid "Videos"
+#~ msgstr "Vídeos"
+
+#~ msgid "Audio"
+#~ msgstr "Áudios"
+
+#~ msgid "Quotes"
+#~ msgstr "Citações"
+
+#~ msgid "Links"
+#~ msgstr "Links"
+
+#~ msgid "Galleries"
+#~ msgstr "Galerias"
+
+#~ msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+#~ msgstr "Isso é um pouco constrangedor, não é?"
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with "
+#~ "different keywords."
+#~ msgstr ""
+#~ "Lamentamos, não houve resultados para sua busca. Por favor, tente "
+#~ "novamente com outra palavra."
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
