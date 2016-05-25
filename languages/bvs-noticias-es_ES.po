@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin BVS Notícias\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-07 11:19-0300\n"
-"PO-Revision-Date: 2016-05-13 15:25-0300\n"
+"POT-Creation-Date: 2016-05-25 16:49-0300\n"
+"PO-Revision-Date: 2016-05-25 16:49-0300\n"
 "Last-Translator: Wilson Moura <mourawil@paho.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -14,6 +14,265 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:5
+msgid "Logo and Banner"
+msgstr "Logo e Banner"
+
+#: functions.php:52
+msgid "Reply"
+msgstr "Responder"
+
+#: class-bvs-noticias-admin.php:110
+#: class-bvs-noticias-admin.php:111
+#: class-bvs-noticias-admin.php:112
+msgid "News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:113
+msgid "All News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:114
+msgid "Add News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:115
+msgid "Add New News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:116
+msgid "Edit"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:117
+msgid "Edit News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:118
+msgid "New News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:119
+msgid "View"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:120
+msgid "View News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:121
+msgid "Search News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:122
+msgid "No News found"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:123
+msgid "No News found in Trash"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:124
+msgid "Parent News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:129
+msgid "Post type for News or News Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:157
+#: class-bvs-noticias-admin.php:158
+#: class-bvs-noticias-admin.php:159
+#: class-bvs-noticias-admin.php:179
+#: page.php:67
+#: category.php:74
+#: archive.php:71
+#: single.php:124
+#: search.php:67
+#: tag.php:74
+#: archive-news.php:71
+#: upw/news-clipping.php:108
+msgid "Sources"
+msgstr "Fuente"
+
+#: class-bvs-noticias-admin.php:160
+msgid "All Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:161
+msgid "Edit Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:162
+msgid "View Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:163
+msgid "Update Source Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:164
+msgid "Add New Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:165
+msgid "New Source Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:166
+msgid "Parent Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:167
+msgid "Parent Source:"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:168
+msgid "Search Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:169
+msgid "Popular Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:170
+msgid "Separate Sources with commas"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:171
+msgid "Add or remove Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:172
+msgid "Choose from the most used Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:173
+msgid "No Sources found"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:198
+#: class-bvs-noticias-admin.php:199
+#: class-bvs-noticias-admin.php:200
+#: class-bvs-noticias-admin.php:220
+msgid "News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:201
+msgid "All News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:202
+msgid "Edit News Type"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:203
+msgid "View News Type"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:204
+msgid "Update News Type Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:205
+msgid "Add New News Type"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:206
+msgid "New News Type Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:207
+msgid "Parent News Type"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:208
+msgid "Parent News Type:"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:209
+msgid "Search News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:210
+msgid "Popular News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:211
+msgid "Separate News Types with commas"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:212
+msgid "Add or remove News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:213
+msgid "Choose from the most used News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:214
+msgid "No News Types found"
+msgstr ""
+
+#: page.php:42
+#: single.php:42
+msgid "Leave a reply"
+msgstr "Deje la Respuesta"
+
+#: page.php:42
+#: single.php:42
+msgid "1 Reply"
+msgstr "1 Responder"
+
+#: page.php:42
+#: single.php:42
+msgid "% Replies"
+msgstr "% Respuestas"
+
+#: page.php:48
+#: single.php:48
+msgid "Featured post"
+msgstr "Entrada destacada"
+
+#: page.php:56
+#: single.php:56
+#, php-format
+msgid "Permalink to %s"
+msgstr "Enlaces permanente para %s"
+
+#: page.php:76
+#: category.php:83
+#: archive.php:80
+#: single.php:133
+#: search.php:76
+#: tag.php:83
+#: archive-news.php:80
+#: upw/level2.php:78
+#: upw/news-clipping.php:118
+msgid "Categories"
+msgstr "Categorías"
+
+#: page.php:86
+#: category.php:93
+#: archive.php:90
+#: single.php:143
+#: search.php:86
+#: tag.php:93
+#: archive-news.php:90
+#: upw/news-clipping.php:128
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: page.php:110
+#: single.php:79
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue la lectura<span class=\"meta-nav\">&rarr;</span>"
+
+#: page.php:111
+#: single.php:80
+msgid "Pages:"
+msgstr "Páginas:"
 
 #: comments.php:31
 #, php-format
@@ -38,79 +297,25 @@ msgstr "Comentarios Recientes &rarr;"
 msgid "Comments are closed."
 msgstr "Comentarios cerrados"
 
-#: tag.php:74
-#: archive.php:71
-#: single.php:124
-#: page.php:67
-#: category.php:74
-#: search.php:67
-#: archive-news.php:71
-#: upw/news-clipping.php:108
-msgid "Sources"
-msgstr "Fuente"
+#: searchform.php:4
+msgid "Search news:"
+msgstr "Búsqueda de noticias:"
 
-#: tag.php:83
-#: archive.php:80
-#: single.php:133
-#: page.php:76
-#: category.php:83
-#: search.php:76
-#: archive-news.php:80
-#: upw/level2.php:78
-#: upw/news-clipping.php:118
-msgid "Categories"
-msgstr "Categorías"
+#: searchform.php:5
+msgid "Search news"
+msgstr "Búsqueda de noticias"
 
-#: tag.php:93
-#: archive.php:90
-#: single.php:143
-#: page.php:86
-#: category.php:93
-#: search.php:86
-#: archive-news.php:90
-#: upw/news-clipping.php:128
-msgid "Tags"
-msgstr "Etiquetas"
+#: searchform.php:5
+msgid "Search News:"
+msgstr "Búsqueda de Noticias:"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "Búsqueda"
 
 #: header.php:83
 msgid "VHL Logo"
 msgstr "BVS Logo"
-
-#: single.php:42
-#: page.php:42
-msgid "Leave a reply"
-msgstr "Deje la Respuesta"
-
-#: single.php:42
-#: page.php:42
-msgid "1 Reply"
-msgstr "1 Responder"
-
-#: single.php:42
-#: page.php:42
-msgid "% Replies"
-msgstr "% Respuestas"
-
-#: single.php:48
-#: page.php:48
-msgid "Featured post"
-msgstr "Entrada destacada"
-
-#: single.php:56
-#: page.php:56
-#, php-format
-msgid "Permalink to %s"
-msgstr "Enlaces permanente para %s"
-
-#: single.php:79
-#: page.php:110
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Continue la lectura<span class=\"meta-nav\">&rarr;</span>"
-
-#: single.php:80
-#: page.php:111
-msgid "Pages:"
-msgstr "Páginas:"
 
 #: single.php:156
 msgid "<< Previous"
@@ -132,30 +337,6 @@ msgstr "Nada Encontrado"
 #: search.php:104
 msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
 msgstr "Lo sentimos, pero nada corresponde a sus criterios de busqueda. Por favor, inténtelo de nuevo con algunas palabras clave diferentes"
-
-#: functions.php:5
-msgid "Logo and Banner"
-msgstr "Logo e Banner"
-
-#: functions.php:57
-msgid "Reply"
-msgstr "Responder"
-
-#: searchform.php:4
-msgid "Search news:"
-msgstr "Búsqueda de noticias:"
-
-#: searchform.php:5
-msgid "Search news"
-msgstr "Búsqueda de noticias"
-
-#: searchform.php:5
-msgid "Search News:"
-msgstr "Búsqueda de Noticias:"
-
-#: searchform.php:7
-msgid "Search"
-msgstr "Búsqueda"
 
 #: upw/level2.php:11
 #: upw/news-clipping.php:11

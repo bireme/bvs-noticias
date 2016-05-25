@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin BVS Notícias\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-06 11:30-0300\n"
-"PO-Revision-Date: 2016-05-13 15:27-0300\n"
+"POT-Creation-Date: 2016-05-25 16:49-0300\n"
+"PO-Revision-Date: 2016-05-25 16:49-0300\n"
 "Last-Translator: Wilson Moura <mourawil@paho.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -19,8 +19,200 @@ msgstr ""
 msgid "Logo and Banner"
 msgstr ""
 
-#: functions.php:57
+#: functions.php:52
 msgid "Reply"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:110
+#: class-bvs-noticias-admin.php:111
+#: class-bvs-noticias-admin.php:112
+msgid "News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:113
+msgid "All News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:114
+msgid "Add News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:115
+msgid "Add New News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:116
+msgid "Edit"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:117
+msgid "Edit News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:118
+msgid "New News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:119
+msgid "View"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:120
+msgid "View News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:121
+msgid "Search News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:122
+msgid "No News found"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:123
+msgid "No News found in Trash"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:124
+msgid "Parent News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:129
+msgid "Post type for News or News Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:157
+#: class-bvs-noticias-admin.php:158
+#: class-bvs-noticias-admin.php:159
+#: class-bvs-noticias-admin.php:179
+#: page.php:67
+#: category.php:74
+#: archive.php:71
+#: single.php:124
+#: search.php:67
+#: tag.php:74
+#: archive-news.php:71
+#: upw/news-clipping.php:108
+msgid "Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:160
+msgid "All Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:161
+msgid "Edit Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:162
+msgid "View Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:163
+msgid "Update Source Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:164
+msgid "Add New Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:165
+msgid "New Source Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:166
+msgid "Parent Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:167
+msgid "Parent Source:"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:168
+msgid "Search Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:169
+msgid "Popular Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:170
+msgid "Separate Sources with commas"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:171
+msgid "Add or remove Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:172
+msgid "Choose from the most used Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:173
+msgid "No Sources found"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:198
+#: class-bvs-noticias-admin.php:199
+#: class-bvs-noticias-admin.php:200
+#: class-bvs-noticias-admin.php:220
+msgid "News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:201
+msgid "All News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:202
+msgid "Edit News Type"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:203
+msgid "View News Type"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:204
+msgid "Update News Type Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:205
+msgid "Add New News Type"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:206
+msgid "New News Type Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:207
+msgid "Parent News Type"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:208
+msgid "Parent News Type:"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:209
+msgid "Search News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:210
+msgid "Popular News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:211
+msgid "Separate News Types with commas"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:212
+msgid "Add or remove News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:213
+msgid "Choose from the most used News Types"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:214
+msgid "No News Types found"
 msgstr ""
 
 #: page.php:42
@@ -47,17 +239,6 @@ msgstr ""
 #: single.php:56
 #, php-format
 msgid "Permalink to %s"
-msgstr ""
-
-#: page.php:67
-#: category.php:74
-#: archive.php:71
-#: single.php:124
-#: search.php:67
-#: tag.php:74
-#: archive-news.php:71
-#: upw/news-clipping.php:108
-msgid "Sources"
 msgstr ""
 
 #: page.php:76
