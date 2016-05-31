@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin BVS Notícias\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-25 16:49-0300\n"
-"PO-Revision-Date: 2016-05-25 16:49-0300\n"
+"POT-Creation-Date: 2016-05-31 17:43-0300\n"
+"PO-Revision-Date: 2016-05-31 17:43-0300\n"
 "Last-Translator: Wilson Moura <mourawil@paho.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -311,6 +311,51 @@ msgstr ""
 
 #: searchform.php:7
 msgid "Search"
+msgstr ""
+
+#: custom-fields-groups.php:31
+msgid "News Type"
+msgstr ""
+
+#: custom-fields-groups.php:34
+msgid "Select type (News or Clipping)"
+msgstr ""
+
+#: custom-fields-groups.php:37
+msgid "Original news"
+msgstr ""
+
+#: custom-fields-groups.php:38
+msgid "News clipping"
+msgstr ""
+
+#: custom-fields-groups.php:47
+msgid "News Source"
+msgstr ""
+
+#: custom-fields-groups.php:71
+msgid "Source URL"
+msgstr ""
+
+#: custom-fields-groups.php:87
+msgid "URL"
+msgstr ""
+
+#: custom-fields-groups.php:95
+#: custom-fields-groups.php:112
+msgid "Author"
+msgstr ""
+
+#: custom-fields-groups.php:98
+msgid "News author name (personal or institutional)"
+msgstr ""
+
+#: custom-fields-groups.php:120
+msgid "Publish Date"
+msgstr ""
+
+#: custom-fields-groups.php:123
+msgid "News publish date at the source"
 msgstr ""
 
 #: header.php:83

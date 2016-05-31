@@ -28,14 +28,14 @@ if(function_exists("register_field_group"))
         'fields' => array (
             array (
                 'key' => 'field_55e599bf48c4d',
-                'label' => 'News Type',
+                'label' => __('News Type', 'bvs-events-calendar'),
                 'name' => 'news_type',
                 'type' => 'radio',
-                'instructions' => 'Select type (News or Clipping)',
+                'instructions' => __('Select type (News or Clipping)', 'bvs-events-calendar'),
                 'required' => 1,
                 'choices' => array (
-                    'news' => 'Original news',
-                    'clipping' => 'News clipping',
+                    'news' => __('Original news', 'bvs-events-calendar'),
+                    'clipping' => __('News clipping', 'bvs-events-calendar'),
                 ),
                 'other_choice' => 0,
                 'save_other_choice' => 0,
@@ -44,7 +44,7 @@ if(function_exists("register_field_group"))
             ),
             array (
                 'key' => 'field_55e59fb8e87a0',
-                'label' => 'News Source',
+                'label' => __('News Source', 'bvs-events-calendar'),
                 'name' => 'news_source',
                 'type' => 'taxonomy',
                 'required' => 1,
@@ -68,7 +68,7 @@ if(function_exists("register_field_group"))
             ),
             array (
                 'key' => 'field_55e5e5b78575b',
-                'label' => 'Source URL',
+                'label' => __('Source URL', 'bvs-events-calendar'),
                 'name' => 'source_url',
                 'type' => 'text',
                 'required' => 1,
@@ -84,7 +84,7 @@ if(function_exists("register_field_group"))
                     'allorany' => 'all',
                 ),
                 'default_value' => '',
-                'placeholder' => 'URL',
+                'placeholder' => __('URL', 'bvs-events-calendar'),
                 'prepend' => '',
                 'append' => '',
                 'formatting' => 'none',
@@ -92,10 +92,10 @@ if(function_exists("register_field_group"))
             ),
             array (
                 'key' => 'field_55e5e3fe76f67',
-                'label' => 'Author',
+                'label' => __('Author', 'bvs-events-calendar'),
                 'name' => 'author',
                 'type' => 'text',
-                'instructions' => 'News author name (personal or institutional).',
+                'instructions' => __('News author name (personal or institutional)', 'bvs-events-calendar'),
                 'required' => 1,
                 'conditional_logic' => array (
                     'status' => 1,
@@ -109,7 +109,7 @@ if(function_exists("register_field_group"))
                     'allorany' => 'all',
                 ),
                 'default_value' => '',
-                'placeholder' => 'Author',
+                'placeholder' => __('Author', 'bvs-events-calendar'),
                 'prepend' => '',
                 'append' => '',
                 'formatting' => 'none',
@@ -117,10 +117,10 @@ if(function_exists("register_field_group"))
             ),
             array (
                 'key' => 'field_55e5e49576f68',
-                'label' => 'Publish Date',
+                'label' => __('Publish Date', 'bvs-events-calendar'),
                 'name' => 'publish_date',
                 'type' => 'date_picker',
-                'instructions' => 'News publish date at the source',
+                'instructions' => __('News publish date at the source', 'bvs-events-calendar'),
                 'required' => 1,
                 'conditional_logic' => array (
                     'status' => 1,

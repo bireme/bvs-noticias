@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin BVS Notícias\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-25 16:47-0300\n"
-"PO-Revision-Date: 2016-05-25 16:47-0300\n"
+"POT-Creation-Date: 2016-05-31 17:38-0300\n"
+"PO-Revision-Date: 2016-05-31 17:42-0300\n"
 "Last-Translator: Wilson Moura <mourawil@paho.org>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -314,6 +314,51 @@ msgstr "Pesquisar Notícias:"
 msgid "Search"
 msgstr "Pesquisar"
 
+#: custom-fields-groups.php:31
+msgid "News Type"
+msgstr "Tipo de Notícia"
+
+#: custom-fields-groups.php:34
+msgid "Select type (News or Clipping)"
+msgstr "Selecione o tipo (Notícia ou Clipping)"
+
+#: custom-fields-groups.php:37
+msgid "Original news"
+msgstr "Notícia original"
+
+#: custom-fields-groups.php:38
+msgid "News clipping"
+msgstr "Clipping de notícias"
+
+#: custom-fields-groups.php:47
+msgid "News Source"
+msgstr "Fonte da Notícia"
+
+#: custom-fields-groups.php:71
+msgid "Source URL"
+msgstr "URL da Fonte"
+
+#: custom-fields-groups.php:87
+msgid "URL"
+msgstr "URL"
+
+#: custom-fields-groups.php:95
+#: custom-fields-groups.php:112
+msgid "Author"
+msgstr "Autor"
+
+#: custom-fields-groups.php:98
+msgid "News author name (personal or institutional)"
+msgstr "Nome do autor da notícia (pessoal ou institucional)"
+
+#: custom-fields-groups.php:120
+msgid "Publish Date"
+msgstr "Data de Publicação"
+
+#: custom-fields-groups.php:123
+msgid "News publish date at the source"
+msgstr "Data de publicação da notícia na fonte"
+
 #: header.php:83
 msgid "VHL Logo"
 msgstr "Logo BVS"
@@ -396,9 +441,6 @@ msgstr "Leia mais"
 #~ msgid ""
 #~ "It looks like nothing was found at this location. Maybe try a search?"
 #~ msgstr "Parece que nada foi encontrado. Que tal tentar uma nova busca?"
-
-#~ msgid "Published by"
-#~ msgstr "Publicado por"
 
 #~ msgid ""
 #~ "Sorry, but nothing matched your search terms. Please try again with some "
