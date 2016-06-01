@@ -73,6 +73,7 @@ class BVS_Noticias_Admin {
 		 * class.
 		 */
 
+		wp_enqueue_style( 'colorpicker', plugin_dir_url( __FILE__ ) . 'css/colorpicker.css', array(), $this->version, 'all' );
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/bvs-noticias-admin.css', array(), $this->version, 'all' );
 
 	}
@@ -96,6 +97,7 @@ class BVS_Noticias_Admin {
 		 * class.
 		 */
 
+		wp_enqueue_script( 'jquery-colorpicker', plugin_dir_url( __FILE__ ) . 'js/colorpicker.js', array( 'jquery' ), $this->version, false );
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bvs-noticias-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
