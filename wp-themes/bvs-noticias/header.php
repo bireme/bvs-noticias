@@ -82,11 +82,11 @@ elseif(is_plugin_active('polylang/polylang.php')) {
 		            <div id="parent">
 			            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bvs-<?php echo $site_lang; ?>.png" alt="<?php echo __('VHL Logo','vhl');?>"/>
 		            </div>
-		           	<?php if ($title == true) {	?>
-			            <div class="site_name">
-							<h1><a title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" href="#"><span><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></span></a></h1>
-			            </div>
-					<?php } ?>
+				<?php } ?>
+				<?php if ($title == true) {	?>
+		            <div class="site_name">
+						<h1><a title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" href="#"><span><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></span></a></h1>
+		            </div>
 				<?php } ?>
 				<div class="headerWidget">
 					<?php dynamic_sidebar( $top ); ?>
