@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Plugin BVS Notícias\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-31 17:42-0300\n"
-"PO-Revision-Date: 2016-06-10 18:19-0300\n"
+"PO-Revision-Date: 2016-06-13 16:27-0300\n"
 "Last-Translator: Marcos Luis Mori <morimarc@paho.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -31,7 +31,7 @@ msgstr "Noticias"
 
 #: class-bvs-noticias-admin.php:113
 msgid "All News"
-msgstr "Todas Noticias"
+msgstr "Todas las Noticias"
 
 #: class-bvs-noticias-admin.php:114
 msgid "Add News"
@@ -39,7 +39,7 @@ msgstr "Adicionar Noticia"
 
 #: class-bvs-noticias-admin.php:115
 msgid "Add New News"
-msgstr "Adicionar Nova Noticia"
+msgstr "Adicionar Nueva Noticia"
 
 #: class-bvs-noticias-admin.php:116
 msgid "Edit"
@@ -51,7 +51,7 @@ msgstr "Editar Noticia"
 
 #: class-bvs-noticias-admin.php:118
 msgid "New News"
-msgstr "Nova Noticia"
+msgstr "Nueva Noticia"
 
 #: class-bvs-noticias-admin.php:119
 msgid "View"
@@ -67,11 +67,11 @@ msgstr "Buscar Noticias"
 
 #: class-bvs-noticias-admin.php:122
 msgid "No News found"
-msgstr "No Se Han Encontrado Noticias"
+msgstr "No Se Han Encontrada Noticias"
 
 #: class-bvs-noticias-admin.php:123
 msgid "No News found in Trash"
-msgstr "No se Han encontrado Noticias en la Basura"
+msgstr "No se Han Encontrada Noticias en la Basura"
 
 #: class-bvs-noticias-admin.php:124
 msgid "Parent News"
@@ -110,7 +110,7 @@ msgstr "Ver Fuente"
 
 #: class-bvs-noticias-admin.php:163
 msgid "Update Source Name"
-msgstr "Atualizar Nombre de la Fuente"
+msgstr "Actualizar Nombre de la Fuente"
 
 #: class-bvs-noticias-admin.php:164
 msgid "Add New Source"
@@ -150,7 +150,7 @@ msgstr "Elegir las Más Usadas Fuentes"
 
 #: class-bvs-noticias-admin.php:173
 msgid "No Sources found"
-msgstr "No Se Han Encontrado Fuentes"
+msgstr "No Se Han Encontrada Fuentes"
 
 #: class-bvs-noticias-admin.php:198
 #: class-bvs-noticias-admin.php:199
@@ -189,7 +189,7 @@ msgstr "Tipo de Noticias Padre"
 
 #: class-bvs-noticias-admin.php:208
 msgid "Parent News Type:"
-msgstr "Tipo de Noticias Padre"
+msgstr "Tipo de Noticias Padre:"
 
 #: class-bvs-noticias-admin.php:209
 msgid "Search News Types"
@@ -201,7 +201,7 @@ msgstr "Tipos de Noticias Populares"
 
 #: class-bvs-noticias-admin.php:211
 msgid "Separate News Types with commas"
-msgstr "Tipos de Noticias Separada con Comas"
+msgstr "Tipos de Noticias Separadas con Comas"
 
 #: class-bvs-noticias-admin.php:212
 msgid "Add or remove News Types"
@@ -209,7 +209,7 @@ msgstr "Adicionar o Quitar Tipos de Noticias"
 
 #: class-bvs-noticias-admin.php:213
 msgid "Choose from the most used News Types"
-msgstr "Elegir los Tipos de Noticas más usadas"
+msgstr "Elegir los Tipos de Noticias Más Usadas"
 
 #: class-bvs-noticias-admin.php:214
 msgid "No News Types found"
@@ -295,7 +295,7 @@ msgstr "Comentarios Recientes &rarr;"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr "Comentarios cerrados"
+msgstr "Comentarios están cerrados"
 
 #: searchform.php:4
 msgid "Search news:"
