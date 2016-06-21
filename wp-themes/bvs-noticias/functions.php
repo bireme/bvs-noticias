@@ -1,17 +1,5 @@
 <?php
 
-if ( function_exists('register_sidebar') ) {
-    register_sidebar( array(
-            'name' => __('Logo and Banner', 'bvs-noticias'),
-            'id' => 'logo_banner',
-            'description' => '',
-            'before_widget' => '<div id="%1$s" class="widget %2$s">',
-            'after_widget' => '</div>',
-            'before_title' => '<strong class="widget-title" style="display: none;">',
-            'after_title' => '</strong>',
-    ) );
-}
-
 function the_titlesmall($before = '', $after = '', $echo = true, $length = false) {
 	$title = get_the_title();
 

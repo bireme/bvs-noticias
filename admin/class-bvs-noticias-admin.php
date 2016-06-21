@@ -76,6 +76,8 @@ class BVS_Noticias_Admin {
 		wp_enqueue_style( 'colorpicker', plugin_dir_url( __FILE__ ) . 'css/colorpicker.css', array(), $this->version, 'all' );
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/bvs-noticias-admin.css', array(), $this->version, 'all' );
 
+		wp_enqueue_style( 'thickbox' );
+
 	}
 
 	/**
@@ -99,6 +101,8 @@ class BVS_Noticias_Admin {
 
 		wp_enqueue_script( 'jquery-colorpicker', plugin_dir_url( __FILE__ ) . 'js/colorpicker.js', array( 'jquery' ), $this->version, false );
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bvs-noticias-admin.js', array( 'jquery' ), $this->version, false );
+
+		wp_enqueue_script( 'thickbox' );
 
 	}
 
@@ -177,7 +181,7 @@ class BVS_Noticias_Admin {
 
 	    $args = array(
 	        "labels" => $labels,
-	        "hierarchical" => false,
+	        "hierarchical" => true,
 	        "label" => __("Sources", 'bvs-noticias'),
 	        "show_ui" => true,
 	        "query_var" => true,
@@ -218,7 +222,7 @@ class BVS_Noticias_Admin {
 
 	    $args = array(
 	        "labels" => $labels,
-	        "hierarchical" => false,
+	        "hierarchical" => true,
 	        "label" => __("News Types", 'bvs-noticias'),
 	        "show_ui" => true,
 	        "query_var" => true,
