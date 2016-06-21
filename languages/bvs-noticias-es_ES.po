@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Plugin BVS Notícias\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-31 17:42-0300\n"
-"PO-Revision-Date: 2016-05-31 17:42-0300\n"
-"Last-Translator: Wilson Moura <mourawil@paho.org>\n"
+"PO-Revision-Date: 2016-06-13 16:27-0300\n"
+"Last-Translator: Marcos Luis Mori <morimarc@paho.org>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -27,59 +27,59 @@ msgstr "Responder"
 #: class-bvs-noticias-admin.php:111
 #: class-bvs-noticias-admin.php:112
 msgid "News"
-msgstr ""
+msgstr "Noticias"
 
 #: class-bvs-noticias-admin.php:113
 msgid "All News"
-msgstr ""
+msgstr "Todas las Noticias"
 
 #: class-bvs-noticias-admin.php:114
 msgid "Add News"
-msgstr ""
+msgstr "Adicionar Noticia"
 
 #: class-bvs-noticias-admin.php:115
 msgid "Add New News"
-msgstr ""
+msgstr "Adicionar Nueva Noticia"
 
 #: class-bvs-noticias-admin.php:116
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: class-bvs-noticias-admin.php:117
 msgid "Edit News"
-msgstr ""
+msgstr "Editar Noticia"
 
 #: class-bvs-noticias-admin.php:118
 msgid "New News"
-msgstr ""
+msgstr "Nueva Noticia"
 
 #: class-bvs-noticias-admin.php:119
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: class-bvs-noticias-admin.php:120
 msgid "View News"
-msgstr ""
+msgstr "Veja Noticia"
 
 #: class-bvs-noticias-admin.php:121
 msgid "Search News"
-msgstr ""
+msgstr "Buscar Noticias"
 
 #: class-bvs-noticias-admin.php:122
 msgid "No News found"
-msgstr ""
+msgstr "No Se Han Encontrada Noticias"
 
 #: class-bvs-noticias-admin.php:123
 msgid "No News found in Trash"
-msgstr ""
+msgstr "No se Han Encontrada Noticias en la Basura"
 
 #: class-bvs-noticias-admin.php:124
 msgid "Parent News"
-msgstr ""
+msgstr "Noticia Padre"
 
 #: class-bvs-noticias-admin.php:129
 msgid "Post type for News or News Clipping"
-msgstr ""
+msgstr "Post type para Noticias o Clipping"
 
 #: class-bvs-noticias-admin.php:157
 #: class-bvs-noticias-admin.php:158
@@ -98,122 +98,122 @@ msgstr "Fuente"
 
 #: class-bvs-noticias-admin.php:160
 msgid "All Sources"
-msgstr ""
+msgstr "Todas las Fuentes"
 
 #: class-bvs-noticias-admin.php:161
 msgid "Edit Source"
-msgstr ""
+msgstr "Editar Fuente"
 
 #: class-bvs-noticias-admin.php:162
 msgid "View Source"
-msgstr ""
+msgstr "Ver Fuente"
 
 #: class-bvs-noticias-admin.php:163
 msgid "Update Source Name"
-msgstr ""
+msgstr "Actualizar Nombre de la Fuente"
 
 #: class-bvs-noticias-admin.php:164
 msgid "Add New Source"
-msgstr ""
+msgstr "Adicionar Nueva Fuente"
 
 #: class-bvs-noticias-admin.php:165
 msgid "New Source Name"
-msgstr ""
+msgstr "Nueva Nombre de la Fuente"
 
 #: class-bvs-noticias-admin.php:166
 msgid "Parent Source"
-msgstr ""
+msgstr "Fuente Padre"
 
 #: class-bvs-noticias-admin.php:167
 msgid "Parent Source:"
-msgstr ""
+msgstr "Fuente Padre:"
 
 #: class-bvs-noticias-admin.php:168
 msgid "Search Sources"
-msgstr ""
+msgstr "Buscar Noticias"
 
 #: class-bvs-noticias-admin.php:169
 msgid "Popular Sources"
-msgstr ""
+msgstr "Fuentes Populares"
 
 #: class-bvs-noticias-admin.php:170
 msgid "Separate Sources with commas"
-msgstr ""
+msgstr "Fuentes Separadas con Comas"
 
 #: class-bvs-noticias-admin.php:171
 msgid "Add or remove Sources"
-msgstr ""
+msgstr "Adicionar o Quitar Fuentes"
 
 #: class-bvs-noticias-admin.php:172
 msgid "Choose from the most used Sources"
-msgstr ""
+msgstr "Elegir las Más Usadas Fuentes"
 
 #: class-bvs-noticias-admin.php:173
 msgid "No Sources found"
-msgstr ""
+msgstr "No Se Han Encontrada Fuentes"
 
 #: class-bvs-noticias-admin.php:198
 #: class-bvs-noticias-admin.php:199
 #: class-bvs-noticias-admin.php:200
 #: class-bvs-noticias-admin.php:220
 msgid "News Types"
-msgstr ""
+msgstr "Tipos de Noticias"
 
 #: class-bvs-noticias-admin.php:201
 msgid "All News Types"
-msgstr ""
+msgstr "Todos Tipos de Noticias"
 
 #: class-bvs-noticias-admin.php:202
 msgid "Edit News Type"
-msgstr ""
+msgstr "Editar Tipos de Noticias"
 
 #: class-bvs-noticias-admin.php:203
 msgid "View News Type"
-msgstr ""
+msgstr "Ver Tipos de Noticias"
 
 #: class-bvs-noticias-admin.php:204
 msgid "Update News Type Name"
-msgstr ""
+msgstr "Actualizar Nombre del Tipo de Noticias"
 
 #: class-bvs-noticias-admin.php:205
 msgid "Add New News Type"
-msgstr ""
+msgstr "Adicionar Nuevo Tipo de Noticias"
 
 #: class-bvs-noticias-admin.php:206
 msgid "New News Type Name"
-msgstr ""
+msgstr "Nuevo Nombre del Tipo de Noticias"
 
 #: class-bvs-noticias-admin.php:207
 msgid "Parent News Type"
-msgstr ""
+msgstr "Tipo de Noticias Padre"
 
 #: class-bvs-noticias-admin.php:208
 msgid "Parent News Type:"
-msgstr ""
+msgstr "Tipo de Noticias Padre:"
 
 #: class-bvs-noticias-admin.php:209
 msgid "Search News Types"
-msgstr ""
+msgstr "Buscar Tipos de Noticias"
 
 #: class-bvs-noticias-admin.php:210
 msgid "Popular News Types"
-msgstr ""
+msgstr "Tipos de Noticias Populares"
 
 #: class-bvs-noticias-admin.php:211
 msgid "Separate News Types with commas"
-msgstr ""
+msgstr "Tipos de Noticias Separadas con Comas"
 
 #: class-bvs-noticias-admin.php:212
 msgid "Add or remove News Types"
-msgstr ""
+msgstr "Adicionar o Quitar Tipos de Noticias"
 
 #: class-bvs-noticias-admin.php:213
 msgid "Choose from the most used News Types"
-msgstr ""
+msgstr "Elegir los Tipos de Noticias Más Usadas"
 
 #: class-bvs-noticias-admin.php:214
 msgid "No News Types found"
-msgstr ""
+msgstr "No Se Han Encontrado Tipos de Noticias"
 
 #: page.php:42
 #: single.php:42
@@ -295,7 +295,7 @@ msgstr "Comentarios Recientes &rarr;"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr "Comentarios cerrados"
+msgstr "Comentarios están cerrados"
 
 #: searchform.php:4
 msgid "Search news:"
@@ -315,19 +315,19 @@ msgstr "Búsqueda"
 
 #: custom-fields-groups.php:31
 msgid "News Type"
-msgstr ""
+msgstr "Tipos de Noticias"
 
 #: custom-fields-groups.php:34
 msgid "Select type (News or Clipping)"
-msgstr ""
+msgstr "Seleccionar el Tipo (Noticias  o Clipping)"
 
 #: custom-fields-groups.php:37
 msgid "Original news"
-msgstr ""
+msgstr "Noticias Original"
 
 #: custom-fields-groups.php:38
 msgid "News clipping"
-msgstr ""
+msgstr "Clipping de Noticias"
 
 #: custom-fields-groups.php:47
 #, fuzzy
@@ -341,24 +341,24 @@ msgstr "Fuente"
 
 #: custom-fields-groups.php:87
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: custom-fields-groups.php:95
 #: custom-fields-groups.php:112
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: custom-fields-groups.php:98
 msgid "News author name (personal or institutional)"
-msgstr ""
+msgstr "Nombre del Autor de la Noticia (Personal o Institucional)"
 
 #: custom-fields-groups.php:120
 msgid "Publish Date"
-msgstr ""
+msgstr "Fecha de Publicación"
 
 #: custom-fields-groups.php:123
 msgid "News publish date at the source"
-msgstr ""
+msgstr "Fecha de Publicación De La Fuente"
 
 #: header.php:83
 msgid "VHL Logo"
