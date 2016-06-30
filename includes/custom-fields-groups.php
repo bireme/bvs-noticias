@@ -20,6 +20,7 @@
  * @subpackage BVS_Noticias/includes
  * @author     BIREME/OPAS/OMS <bvs.technical.support@listas.bireme.br>
  */
+
 if(function_exists("register_field_group"))
 {
     register_field_group(array (
@@ -27,62 +28,11 @@ if(function_exists("register_field_group"))
         'title' => 'News Clipping',
         'fields' => array (
             array (
-                'key' => 'field_55e599bf48c4d',
-                'label' => __('News Type', 'bvs-events-calendar'),
-                'name' => 'news_type',
-                'type' => 'radio',
-                'instructions' => __('Select type (News or Clipping)', 'bvs-events-calendar'),
-                'required' => 1,
-                'choices' => array (
-                    'news' => __('Original news', 'bvs-events-calendar'),
-                    'clipping' => __('News clipping', 'bvs-events-calendar'),
-                ),
-                'other_choice' => 0,
-                'save_other_choice' => 0,
-                'default_value' => '',
-                'layout' => 'horizontal',
-            ),
-            array (
-                'key' => 'field_55e59fb8e87a0',
-                'label' => __('News Source', 'bvs-events-calendar'),
-                'name' => 'news_source',
-                'type' => 'taxonomy',
-                'required' => 1,
-                'conditional_logic' => array (
-                    'status' => 1,
-                    'rules' => array (
-                        array (
-                            'field' => 'field_55e599bf48c4d',
-                            'operator' => '==',
-                            'value' => 'clipping',
-                        ),
-                    ),
-                    'allorany' => 'all',
-                ),
-                'taxonomy' => 'news-source',
-                'field_type' => 'select',
-                'allow_null' => 1,
-                'load_save_terms' => 1,
-                'return_format' => 'object',
-                'multiple' => 0,
-            ),
-            array (
                 'key' => 'field_55e5e5b78575b',
                 'label' => __('Source URL', 'bvs-events-calendar'),
                 'name' => 'source_url',
                 'type' => 'text',
                 'required' => 1,
-                'conditional_logic' => array (
-                    'status' => 1,
-                    'rules' => array (
-                        array (
-                            'field' => 'field_55e599bf48c4d',
-                            'operator' => '==',
-                            'value' => 'clipping',
-                        ),
-                    ),
-                    'allorany' => 'all',
-                ),
                 'default_value' => '',
                 'placeholder' => __('URL', 'bvs-events-calendar'),
                 'prepend' => '',
@@ -97,17 +47,6 @@ if(function_exists("register_field_group"))
                 'type' => 'text',
                 'instructions' => __('News author name (personal or institutional)', 'bvs-events-calendar'),
                 'required' => 1,
-                'conditional_logic' => array (
-                    'status' => 1,
-                    'rules' => array (
-                        array (
-                            'field' => 'field_55e599bf48c4d',
-                            'operator' => '==',
-                            'value' => 'clipping',
-                        ),
-                    ),
-                    'allorany' => 'all',
-                ),
                 'default_value' => '',
                 'placeholder' => __('Author', 'bvs-events-calendar'),
                 'prepend' => '',
@@ -122,17 +61,6 @@ if(function_exists("register_field_group"))
                 'type' => 'date_picker',
                 'instructions' => __('News publish date at the source', 'bvs-events-calendar'),
                 'required' => 1,
-                'conditional_logic' => array (
-                    'status' => 1,
-                    'rules' => array (
-                        array (
-                            'field' => 'field_55e599bf48c4d',
-                            'operator' => '==',
-                            'value' => 'clipping',
-                        ),
-                    ),
-                    'allorany' => 'all',
-                ),
                 'date_format' => 'yymmdd',
                 'display_format' => 'dd/mm/yy',
                 'first_day' => 1,
@@ -143,7 +71,7 @@ if(function_exists("register_field_group"))
                 array (
                     'param' => 'post_type',
                     'operator' => '==',
-                    'value' => 'news',
+                    'value' => 'clipping',
                     'order_no' => 0,
                     'group_no' => 0,
                 ),

@@ -132,11 +132,11 @@ class BVS_Noticias_Admin {
 
 	    $args = array(
 	        "labels" => $labels,
-	        "description" => __("Post type for News or News Clipping", 'bvs-noticias'),
+	        "description" => __("Post type for News", 'bvs-noticias'),
 	        "public" => true,
 	        "show_ui" => true,
 	        "show_in_rest" => false,
-	        "has_archive" => false,
+	        "has_archive" => true,
 	        "show_in_menu" => true,
 	        "exclude_from_search" => false,
 	        "capability_type" => "post",
@@ -145,11 +145,57 @@ class BVS_Noticias_Admin {
 	        "rewrite" => array( "slug" => "news", "with_front" => true ),
 	        "query_var" => true,
 	        "supports" => array( "title", "editor", "excerpt", "custom-fields", "comments", "revisions", "thumbnail", "author" ),       
-	        "taxonomies" => array( "category", "post_tag", "language", "news-source", "news-type" )
+	        "taxonomies" => array( "category", "post_tag", "language", "news-source" )
 	    );
 	    register_post_type( "news", $args );
 
 	// End of register_cpt_news()
+	}
+
+	/**
+	 * Função que registra o custom post type Clipping
+	 *
+	 * @since     1.0.0
+	 */
+	public function register_cpt_clipping() {
+		$labels = array(
+	        "name" => __("Clippings", 'bvs-noticias'),
+	        "singular_name" => __("Clipping", 'bvs-noticias'),
+	        "menu_name" => __("Clipping", 'bvs-noticias'),
+	        "all_items" => __("All Clippings", 'bvs-noticias'),
+	        "add_new" => __("Add Clipping", 'bvs-noticias'),
+	        "add_new_item" => __("Add New Clipping", 'bvs-noticias'),
+	        "edit" => __("Edit", 'bvs-noticias'),
+	        "edit_item" => __("Edit Clipping", 'bvs-noticias'),
+	        "new_item" => __("New Clipping", 'bvs-noticias'),
+	        "view" => __("View", 'bvs-noticias'),
+	        "view_item" => __("View Clipping", 'bvs-noticias'),
+	        "search_items" => __("Search Clipping", 'bvs-noticias'),
+	        "not_found" => __("No Clipping found", 'bvs-noticias'),
+	        "not_found_in_trash" => __("No Clipping found in Trash", 'bvs-noticias'),
+	        "parent" => __("Parent Clipping", 'bvs-noticias'),
+	    );
+
+		$args = array(
+			"labels" => $labels,
+	        "description" => __("Post type for News Clipping", 'bvs-noticias'),
+			"public" => true,
+			"show_ui" => true,
+			"show_in_rest" => false,
+			"has_archive" => true,
+			"show_in_menu" => true,
+			"exclude_from_search" => false,
+			"capability_type" => "post",
+			"map_meta_cap" => true,
+			"hierarchical" => false,
+			"rewrite" => array( "slug" => "clipping", "with_front" => true ),
+			"query_var" => true,
+			"supports" => array( "title", "editor", "excerpt", "custom-fields", "comments", "revisions", "thumbnail", "author" ),		
+			"taxonomies" => array( "category", "post_tag", "language", "news-source" ),		
+		);
+		register_post_type( "clipping", $args );
+
+	// End of register_cpt_clipping()
 	}
 
 	/**
@@ -188,50 +234,9 @@ class BVS_Noticias_Admin {
 	        "rewrite" => array( 'slug' => 'news-source', 'with_front' => true ),
 	        "show_admin_column" => false,
 	    );
-	    register_taxonomy( "news-source", array( "news" ), $args );
+	    register_taxonomy( "news-source", array( "news", "clipping" ), $args );
 
 	// End register_tax_news_source()
-	}
-
-	/**
-	 * Função que registra o custom taxonomy Types
-	 *
-	 * @since     1.0.0
-	 */
-	public function register_tax_news_type() {
-
-	    $labels = array(
-            "name" => __("News Types", 'bvs-noticias'),
-            "label" => __("News Types", 'bvs-noticias'),
-            "menu_name" => __("News Types", 'bvs-noticias'),
-            "all_items" => __("All News Types", 'bvs-noticias'),
-            "edit_item" => __("Edit News Type", 'bvs-noticias'),
-            "view_item" => __("View News Type", 'bvs-noticias'),
-            "update_item" => __("Update News Type Name", 'bvs-noticias'),
-            "add_new_item" => __("Add New News Type", 'bvs-noticias'),
-            "new_item_name" => __("New News Type Name", 'bvs-noticias'),
-            "parent_item" => __("Parent News Type", 'bvs-noticias'),
-            "parent_item_colon" => __("Parent News Type:", 'bvs-noticias'),
-            "search_items" => __("Search News Types", 'bvs-noticias'),
-            "popular_items" => __("Popular News Types", 'bvs-noticias'),
-            "separate_items_with_commas" => __("Separate News Types with commas", 'bvs-noticias'),
-            "add_or_remove_items" => __("Add or remove News Types", 'bvs-noticias'),
-            "choose_from_most_used" => __("Choose from the most used News Types", 'bvs-noticias'),
-            "not_found" => __("No News Types found", 'bvs-noticias'),
-        );
-
-	    $args = array(
-	        "labels" => $labels,
-	        "hierarchical" => true,
-	        "label" => __("News Types", 'bvs-noticias'),
-	        "show_ui" => true,
-	        "query_var" => true,
-	        "rewrite" => array( 'slug' => 'news-type', 'with_front' => true ),
-	        "show_admin_column" => false,
-	    );
-	    register_taxonomy( "news-type", array( "news" ), $args );
-
-	// End register_tax_news_type()
 	}
 
 }

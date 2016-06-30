@@ -165,8 +165,8 @@ class BVS_Noticias {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
 		$this->loader->add_action( 'init', $plugin_admin, 'register_cpt_news' );
+		$this->loader->add_action( 'init', $plugin_admin, 'register_cpt_clipping' );
 		$this->loader->add_action( 'init', $plugin_admin, 'register_tax_news_source' );
-		$this->loader->add_action( 'init', $plugin_admin, 'register_tax_news_type' );
 
 	}
 
