@@ -19,10 +19,8 @@ Tags: three-columns, right-sidebar
 -------------------------------------------------------------- */
 .hide, .screen-reader-text {display: none;}
 .column_1 {margin-right:1em;}
+.entire-column {width: auto};
 #parent a {display:block;}
-.top_pt-br #parent a {background: url(images/logo-bvs-pt.png) no-repeat;}
-.top_en-us #parent a {background: url(images/logo-bvs-en.png) no-repeat;}
-.top_es-es #parent a {background: url(images/logo-bvs-es.png) no-repeat;}
 .site_name {font-size: 200% !important;margin-left: 15px;}
 .site_name a {color:#005BA0;text-decoration: none;}
 .headerWidget {margin: 4px 8px 0 0 !important;}
@@ -37,14 +35,14 @@ Tags: three-columns, right-sidebar
 .widget_search form #s {width: 15rem;margin-right: .6em;}
 .widget_search label {display: inline;} 
 .search-results .page-title {font-size: 14px !important; padding: 0 !important;}
-.posttype-content strong, .entry-cats-label, .entry-source-label, .entry-tags-label {display: inline !important;}
+.posttype-content strong, .entry-label {display: inline !important;}
 .rss-icn {float: right;margin-top: -22px;}
 .content-area .rss-icn {margin-top: 4px;}
 .rss-icn a {color:#FF9100 !important; text-decoration: none;}
 .entry-title a {font-size: 160%;color:#005BA0;}
 .entry-title a:hover {text-decoration: none !important;color:#00CCFF !important;}
 .entry-title a:visited {color:#005BA0;}
-.column .widget DIV {padding:0 !important;}
+.column .widget div {padding:0 !important;}
 .thumb-img {float:left;margin:0 8px 8px 0;}
 .upw-posts {margin-top: 1.5em !important;}
 .article-list {margin-top:1.5em;}
@@ -60,22 +58,21 @@ article .entry-image {margin-bottom: 1em;}
 article .entry-summary p {margin-bottom:1em !important;}
 article .posttype-content {margin-bottom: 1.7em;}
 article .posttype-content a, 
-.entry-cats-list a, 
-.entry-source-list a, 
-.entry-tags-list a, 
+.entry-list a, 
 .comments-link a {color:#005BA0 !important;text-decoration: none;}
 article .posttype-content a:visited, 
-.entry-cats-list a:visited, 
-.entry-source-list a:visited, 
-.entry-tags-list a:visited,
+.entry-list a:visited, 
 .comments-link a:visited {color:#005BA0;}
 article .posttype-content a:hover, 
-.entry-cats-list a:hover,
-.entry-source-list a:hover,
-.entry-tags-list a:hover,
+.entry-list a:hover,
 .comments-link a:hover {color:#00CCFF !important;}
 article footer {clear: both;}
-article .entry-news-sources, article .entry-categories, article .entry-tags {margin-bottom: .5em;}
+article .entry-author,
+article .entry-publish-date,
+article .entry-source-url,
+article .entry-news-sources,
+article .entry-categories,
+article .entry-tags {margin-bottom: .5em;}
 a.more-link {color:#005BA0 !important;background-color: transparent !important;padding: 0; display: inline !important;text-decoration: none !important;}
 a.more-link:hover {color: #00CCFF !important;}
 .entry-content .news-thumb-img {width:40%; float:left;margin:0 .8em .35em 0;}

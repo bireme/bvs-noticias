@@ -9,10 +9,17 @@
         $current_language = '_' . $current_language;
     }
 
+    $class_1 = '';
+    $class_2 = '';
     $level2 = "level2";
 
     if(is_plugin_active('multi-language-framework/multi-language-framework.php'))
         $level2 .= $current_language;
+
+    if ( ! is_active_sidebar( $level2 ) ) {
+    	$class_1 = 'entire-column';
+    	$class_2 = 'hide';
+    }
 
 ?>
 	<div class="top_sidebar">
@@ -23,7 +30,7 @@
 			<?php get_search_form(); ?>	
 		</div>
 	</div>
-	<div class="column column_1">
+	<div class="column column_1 <?php echo $class_1; ?>">
 		<section id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 				<header class="page-header">
@@ -54,7 +61,7 @@
 							<?php else : ?>
 							<strong class="entry-title">
 								<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'bvs-noticias' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
-							</strong	>
+							</strong>
 							<?php endif; // is_single() ?>
 						</header><!-- .entry-header -->
 
@@ -68,14 +75,15 @@
 						<div class="entry-content">
 							<?php if ( has_post_thumbnail() ) : ?>
 								<div class="news-thumb-img">
-									<?php the_post_thumbnail (); ?>
+									<?php the_post_thumbnail(); ?>
 									<span class="img-caption">
-										<?php $thumb_img = get_post( get_post_thumbnail_id() ); // Get post by ID
+										<?php
+											$thumb_img = get_post( get_post_thumbnail_id() ); // Get post by ID
 											echo $thumb_img->post_excerpt; // Display Caption
 										?>
 									</span>
 								</div>
-							<? endif; ?>
+							<?php endif; ?>
 						    <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'bvs-noticias' ) ); ?>
 							<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'bvs-noticias' ), 'after' => '</div>' ) ); ?>
 				 		        <div class="childPages">
@@ -117,12 +125,13 @@
 				                </div>
 						</div><!-- .entry-content -->
 						<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-							<?php 
+							<?php
 								$sources = get_the_term_list($post->ID, 'news-source', '', ', '); 
-								if ($sources) : ?>
+								if ($sources) :
+							?>
 					            <div class="entry-news-sources">
-					            	<strong class="entry-source-label"><?php _e('Sources', 'bvs-noticias'); ?>:</strong>
-					            	<span class="entry-source-list"><?php echo $sources; ?></span>
+					            	<strong class="entry-label"><?php _e('Sources', 'bvs-noticias'); ?>:</strong>
+					            	<span class="entry-list"><?php echo $sources; ?></span>
 					            </div>
 					        <?php endif; ?>
 					        <?php
@@ -130,26 +139,24 @@
 								if ($categories) :
 							?>
 								<div class="entry-categories">
-									<strong class="entry-cats-label"><?php _e('Categories', 'bvs-noticias'); ?>:</strong>
-									<span class="entry-cats-list"><?php echo $categories; ?></span>
+									<strong class="entry-label"><?php _e('Categories', 'bvs-noticias'); ?>:</strong>
+									<span class="entry-list"><?php echo $categories; ?></span>
 								</div>
 							<?php endif; ?>
-
 							<?php
 								$tags = get_the_term_list($post->ID, 'post_tag', '', ', ');
 								if ($tags) :
 				            ?>
 								<div class="entry-tags">
-									<strong class="entry-tags-label"><?php _e('Tags', 'bvs-noticias'); ?>:</strong>
-				                <span class="entry-tags-list"><?php echo $tags; ?></span>
+									<strong class="entry-label"><?php _e('Tags', 'bvs-noticias'); ?>:</strong>
+				                <span class="entry-list"><?php echo $tags; ?></span>
 				              </div>
 				            <?php endif; ?>
-				                <div class="storycontent">
-				                        <?php //the_content(__('(more...)')); ?>
-				                </div>
-					        </div>
+			                <div class="storycontent">
+			                        <?php //the_content(__('(more...)')); ?>
+			                </div>
+				        </div>
 						<?php endif; ?>
-
 					</article>
 					<div class="v-nav">
 						<?php the_post_navigation( array(
@@ -164,8 +171,10 @@
 		</section>
 	</div>
 	
-	<div class="column column_2">
-		<?php dynamic_sidebar( $level2 ); ?>
+	<div class="column column_2 <?php echo $class_2; ?>">
+		<?php if ( is_active_sidebar( $level2 ) ) : ?>
+			<?php dynamic_sidebar( $level2 ); ?>
+		<?php endif; ?>
 	</div>
 	
 <?php get_footer(); ?>
