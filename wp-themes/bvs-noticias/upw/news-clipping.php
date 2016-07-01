@@ -4,13 +4,15 @@
  *
  * @version     2.0.0
  */
-?>
 
-<?php if (in_array('news', $upw_query->query_vars['post_type'])): ?>
-  <div class="rss-icn">
-    <a href="<?php echo get_post_type_archive_feed_link('news'); ?>"><i class="fa fa-rss-square"></i> <?php _e('RSS feed', 'bvs-noticias'); ?></a>
-  </div>
-<?php endif; ?>
+if(function_exists('wp_pagenavi')) {
+  global $wp_query;
+  $paged = ( isset($_POST['page']) ) ? $_POST['page'] : 1;
+  $args = array_merge( $upw_query->query_vars, array( 'paged' => $paged ) );
+  query_posts( $args );
+  $upw_query = $wp_query;
+}
+?>
 
 <?php if ($instance['before_posts']) : ?>
   <div class="upw-before">
@@ -157,15 +159,16 @@
             <?php endif; ?>
           </div>
 
-          <footer>
-
-            
-
-          </footer>
-
         </article>
 
       <?php endwhile; ?>
+
+      <?php if(function_exists('wp_pagenavi')) : ?>
+        <div class="pagination_container">
+          <?php wp_pagenavi( array( 'query' => $upw_query ) ); ?>
+          <?php wp_reset_query(); ?>  
+        </div>
+      <?php endif; ?>
 
   <?php else : ?>
 
@@ -181,8 +184,4 @@
   <div class="upw-after">
     <?php echo wpautop($instance['after_posts']); ?>
   </div>
-<?php endif; ?>
-
-<?php if ($upw_query->query_vars['posts_per_page'] < $upw_query->found_posts): ?>
-  <div class="all-posts"><a href="<?php echo get_post_type_archive_link('news'); ?>"><?php _e('See all', 'bvs-noticias'); ?></a></div>
 <?php endif; ?>
