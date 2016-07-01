@@ -26,16 +26,6 @@ function new_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
-function custom_posts_per_page( $query ) {
-    if ( !is_home() && !is_admin() && post_type_exists('news') )
-        $query->set( 'posts_per_page', 10 );
-    if ( $query->is_category || $query->is_tag )
-        $query->set( 'post_type', 'any' );
-    if ( $query->is_date )
-        $query->set( 'post_type', array( 'news', 'post' ) );
-}
-add_filter('parse_query', 'custom_posts_per_page');
-
 function custom_reply_link_args($args){
     $args['reply_text'] = __( 'Reply', 'bvs-noticias' );
     return $args;
