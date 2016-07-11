@@ -18,14 +18,6 @@
 
 get_header(); ?>
 
-	<div class="top_sidebar">
-		<div id="nav_menu-2" class="widget widget_nav_menu">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</div>
-		<div class="widget_search">
-			<?php get_search_form(); ?>
-		</div>
-	</div>
 	<div class="column column_1">
 		<section id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">

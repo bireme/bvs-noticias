@@ -39,6 +39,8 @@ Tags: three-columns, right-sidebar
 .rss-icn {float: right;margin-top: -22px;}
 .content-area .rss-icn {margin-top: 4px;}
 .rss-icn a {color:#FF9100 !important; text-decoration: none;}
+.category .entry-title, .category img.wp-post-image { margin-left: 0 !important; }
+.page .entry-title a {font-size: 100%;}
 .entry-title a {font-size: 160%;color:#005BA0;}
 .entry-title a:hover {text-decoration: none !important;color:#00CCFF !important;}
 .entry-title a:visited {color:#005BA0;}
