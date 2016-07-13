@@ -1,277 +1,202 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Plugin BVS Notícias\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 17:43-0300\n"
+"POT-Creation-Date: 2016-07-13 13:10-0300\n"
 "PO-Revision-Date: 2016-05-31 17:43-0300\n"
 "Last-Translator: Wilson Moura <mourawil@paho.org>\n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;__;_e;_n:1,2;_x\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: functions.php:5
-msgid "Logo and Banner"
-msgstr ""
-
-#: functions.php:52
-msgid "Reply"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:110
-#: class-bvs-noticias-admin.php:111
-#: class-bvs-noticias-admin.php:112
-msgid "News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:113
-msgid "All News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:114
-msgid "Add News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:115
-msgid "Add New News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:116
-msgid "Edit"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:117
-msgid "Edit News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:118
-msgid "New News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:119
-msgid "View"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:120
-msgid "View News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:121
-msgid "Search News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:122
-msgid "No News found"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:123
-msgid "No News found in Trash"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:124
-msgid "Parent News"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:129
-msgid "Post type for News or News Clipping"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:157
-#: class-bvs-noticias-admin.php:158
-#: class-bvs-noticias-admin.php:159
-#: class-bvs-noticias-admin.php:179
-#: page.php:67
-#: category.php:74
-#: archive.php:71
-#: single.php:124
-#: search.php:67
-#: tag.php:74
-#: archive-news.php:71
-#: upw/news-clipping.php:108
+#: archive.php:63 category.php:66 class-bvs-noticias-admin.php:209
+#: class-bvs-noticias-admin.php:210 class-bvs-noticias-admin.php:211
+#: class-bvs-noticias-admin.php:231 page.php:59 search.php:67
+#: single-clipping.php:155 single.php:125 tag.php:66 upw/news-clipping.php:110
 msgid "Sources"
 msgstr ""
 
-#: class-bvs-noticias-admin.php:160
-msgid "All Sources"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:161
-msgid "Edit Source"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:162
-msgid "View Source"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:163
-msgid "Update Source Name"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:164
-msgid "Add New Source"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:165
-msgid "New Source Name"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:166
-msgid "Parent Source"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:167
-msgid "Parent Source:"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:168
-msgid "Search Sources"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:169
-msgid "Popular Sources"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:170
-msgid "Separate Sources with commas"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:171
-msgid "Add or remove Sources"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:172
-msgid "Choose from the most used Sources"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:173
-msgid "No Sources found"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:198
-#: class-bvs-noticias-admin.php:199
-#: class-bvs-noticias-admin.php:200
-#: class-bvs-noticias-admin.php:220
-msgid "News Types"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:201
-msgid "All News Types"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:202
-msgid "Edit News Type"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:203
-msgid "View News Type"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:204
-msgid "Update News Type Name"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:205
-msgid "Add New News Type"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:206
-msgid "New News Type Name"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:207
-msgid "Parent News Type"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:208
-msgid "Parent News Type:"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:209
-msgid "Search News Types"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:210
-msgid "Popular News Types"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:211
-msgid "Separate News Types with commas"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:212
-msgid "Add or remove News Types"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:213
-msgid "Choose from the most used News Types"
-msgstr ""
-
-#: class-bvs-noticias-admin.php:214
-msgid "No News Types found"
-msgstr ""
-
-#: page.php:42
-#: single.php:42
-msgid "Leave a reply"
-msgstr ""
-
-#: page.php:42
-#: single.php:42
-msgid "1 Reply"
-msgstr ""
-
-#: page.php:42
-#: single.php:42
-msgid "% Replies"
-msgstr ""
-
-#: page.php:48
-#: single.php:48
-msgid "Featured post"
-msgstr ""
-
-#: page.php:56
-#: single.php:56
-#, php-format
-msgid "Permalink to %s"
-msgstr ""
-
-#: page.php:76
-#: category.php:83
-#: archive.php:80
-#: single.php:133
-#: search.php:76
-#: tag.php:83
-#: archive-news.php:80
-#: upw/level2.php:78
-#: upw/news-clipping.php:118
+#: archive.php:72 category.php:75 page.php:68 search.php:76
+#: single-clipping.php:164 single.php:134 tag.php:75 upw/level2.php:78
+#: upw/news-clipping.php:120
 msgid "Categories"
 msgstr ""
 
-#: page.php:86
-#: category.php:93
-#: archive.php:90
-#: single.php:143
-#: search.php:86
-#: tag.php:93
-#: archive-news.php:90
-#: upw/news-clipping.php:128
+#: archive.php:82 category.php:85 page.php:78 search.php:86
+#: single-clipping.php:173 single.php:143 tag.php:85 upw/news-clipping.php:130
 msgid "Tags"
 msgstr ""
 
-#: page.php:110
-#: single.php:79
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#: class-bvs-noticias-admin.php:116 class-bvs-noticias-admin.php:117
+#: class-bvs-noticias-admin.php:118
+msgid "News"
 msgstr ""
 
-#: page.php:111
-#: single.php:80
-msgid "Pages:"
+#: class-bvs-noticias-admin.php:119
+msgid "All News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:120
+msgid "Add News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:121
+msgid "Add New News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:122 class-bvs-noticias-admin.php:168
+msgid "Edit"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:123
+msgid "Edit News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:124
+msgid "New News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:125 class-bvs-noticias-admin.php:171
+msgid "View"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:126
+msgid "View News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:127
+msgid "Search News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:128
+msgid "No News found"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:129
+msgid "No News found in Trash"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:130
+msgid "Parent News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:135
+msgid "Post type for News"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:162
+msgid "Clippings"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:163 class-bvs-noticias-admin.php:164
+msgid "Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:165
+msgid "All Clippings"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:166
+msgid "Add Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:167
+msgid "Add New Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:169
+msgid "Edit Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:170
+msgid "New Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:172
+msgid "View Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:173
+msgid "Search Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:174
+msgid "No Clipping found"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:175
+msgid "No Clipping found in Trash"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:176
+msgid "Parent Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:181
+msgid "Post type for News Clipping"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:212
+msgid "All Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:213
+msgid "Edit Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:214
+msgid "View Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:215
+msgid "Update Source Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:216
+msgid "Add New Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:217
+msgid "New Source Name"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:218
+msgid "Parent Source"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:219
+msgid "Parent Source:"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:220
+msgid "Search Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:221
+msgid "Popular Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:222
+msgid "Separate Sources with commas"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:223
+msgid "Add or remove Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:224
+msgid "Choose from the most used Sources"
+msgstr ""
+
+#: class-bvs-noticias-admin.php:225
+msgid "No Sources found"
 msgstr ""
 
 #: comments.php:31
@@ -297,6 +222,77 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
+#: custom-fields-groups.php:32 single-clipping.php:144
+msgid "Source URL"
+msgstr ""
+
+#: custom-fields-groups.php:37
+msgid "URL"
+msgstr ""
+
+#: custom-fields-groups.php:45 custom-fields-groups.php:51
+#: single-clipping.php:125
+msgid "Author"
+msgstr ""
+
+#: custom-fields-groups.php:48
+msgid "News author name (personal or institutional)"
+msgstr ""
+
+#: custom-fields-groups.php:59 single-clipping.php:135
+msgid "Publish Date"
+msgstr ""
+
+#: custom-fields-groups.php:62
+msgid "News publish date at the source"
+msgstr ""
+
+#: functions.php:30
+msgid "Reply"
+msgstr ""
+
+#: page.php:34 single-clipping.php:41 single.php:41
+msgid "Leave a reply"
+msgstr ""
+
+#: page.php:34 single-clipping.php:41 single.php:41
+msgid "1 Reply"
+msgstr ""
+
+#: page.php:34 single-clipping.php:41 single.php:41
+msgid "% Replies"
+msgstr ""
+
+#: page.php:40 single-clipping.php:47 single.php:47
+msgid "Featured post"
+msgstr ""
+
+#: page.php:48 single-clipping.php:55 single.php:55
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: page.php:102 single-clipping.php:79 single.php:79
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: page.php:103 single-clipping.php:80 single.php:80
+msgid "Pages:"
+msgstr ""
+
+#: search.php:32
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:100
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:104
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
 #: searchform.php:4
 msgid "Search news:"
 msgstr ""
@@ -313,105 +309,36 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: custom-fields-groups.php:31
-msgid "News Type"
-msgstr ""
-
-#: custom-fields-groups.php:34
-msgid "Select type (News or Clipping)"
-msgstr ""
-
-#: custom-fields-groups.php:37
-msgid "Original news"
-msgstr ""
-
-#: custom-fields-groups.php:38
-msgid "News clipping"
-msgstr ""
-
-#: custom-fields-groups.php:47
-msgid "News Source"
-msgstr ""
-
-#: custom-fields-groups.php:71
-msgid "Source URL"
-msgstr ""
-
-#: custom-fields-groups.php:87
-msgid "URL"
-msgstr ""
-
-#: custom-fields-groups.php:95
-#: custom-fields-groups.php:112
-msgid "Author"
-msgstr ""
-
-#: custom-fields-groups.php:98
-msgid "News author name (personal or institutional)"
-msgstr ""
-
-#: custom-fields-groups.php:120
-msgid "Publish Date"
-msgstr ""
-
-#: custom-fields-groups.php:123
-msgid "News publish date at the source"
-msgstr ""
-
-#: header.php:83
-msgid "VHL Logo"
-msgstr ""
-
-#: single.php:156
+#: single-clipping.php:185 single.php:155
 msgid "<< Previous"
 msgstr ""
 
-#: single.php:157
+#: single-clipping.php:186 single.php:156
 msgid "Next >>"
 msgstr ""
 
-#: search.php:32
-#, php-format
-msgid "Search Results for: %s"
-msgstr ""
-
-#: search.php:100
-msgid "Nothing Found"
-msgstr ""
-
-#: search.php:104
-msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
-msgstr ""
-
 #: upw/level2.php:11
-#: upw/news-clipping.php:11
 msgid "RSS feed"
 msgstr ""
 
-#: upw/level2.php:50
-#: upw/level2.php:63
-#: upw/news-clipping.php:42
-#: upw/news-clipping.php:55
+#: upw/level2.php:50 upw/level2.php:63 upw/news-clipping.php:44
+#: upw/news-clipping.php:57
 msgid "|"
 msgstr ""
 
-#: upw/level2.php:55
-#: upw/news-clipping.php:47
+#: upw/level2.php:55 upw/news-clipping.php:49
 msgid "By"
 msgstr ""
 
-#: upw/level2.php:68
-#: upw/news-clipping.php:60
+#: upw/level2.php:68 upw/news-clipping.php:62
 msgid "No comments"
 msgstr ""
 
-#: upw/level2.php:68
-#: upw/news-clipping.php:60
+#: upw/level2.php:68 upw/news-clipping.php:62
 msgid "One comment"
 msgstr ""
 
-#: upw/level2.php:68
-#: upw/news-clipping.php:60
+#: upw/level2.php:68 upw/news-clipping.php:62
 #, php-format
 msgid "% comments"
 msgstr ""
@@ -420,17 +347,14 @@ msgstr ""
 msgid "Tagged"
 msgstr ""
 
-#: upw/level2.php:155
-#: upw/news-clipping.php:173
+#: upw/level2.php:155 upw/news-clipping.php:176
 msgid "No posts found."
 msgstr ""
 
 #: upw/level2.php:169
-#: upw/news-clipping.php:187
 msgid "See all"
 msgstr ""
 
-#: upw/news-clipping.php:93
+#: upw/news-clipping.php:95
 msgid "Read more"
 msgstr ""
-
