@@ -75,6 +75,8 @@ class BVS_Noticias {
 		$this->set_locale();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
+		$this->load_acf(); // Custom Fields
+		$this->load_cpt(); // Custom Post Types
 
 	}
 
@@ -119,16 +121,6 @@ class BVS_Noticias {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-bvs-noticias-public.php';
 
-		/**
-		 * Incorpora o plugin ACF no plugin BVS Notícias.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/advanced-custom-fields/acf.php';
-
-		/**
-		 * Registra os custom fields do plugin ACF no plugin BVS Notícias.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/custom-fields-groups.php';
-
 		$this->loader = new BVS_Noticias_Loader();
 
 	}
@@ -164,9 +156,8 @@ class BVS_Noticias {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
-		$this->loader->add_action( 'init', $plugin_admin, 'register_cpt_news' );
-		$this->loader->add_action( 'init', $plugin_admin, 'register_cpt_clipping' );
-		$this->loader->add_action( 'init', $plugin_admin, 'register_tax_news_source' );
+		$this->loader->add_action( 'plugins_loaded', $plugin_admin, 'bvs_news_register_theme' );
+		$this->loader->add_action( 'admin_notices', $plugin_admin, 'bvs_news_admin_notices' );
 
 	}
 
@@ -184,7 +175,53 @@ class BVS_Noticias {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
-		$this->loader->add_action( 'plugins_loaded', $plugin_public, 'bvs_news_register_theme' );
+	}
+
+	/**
+	 * Register custom fields
+	 *
+	 * @since    1.0.0
+	 * @access   private
+	 */
+	private function load_acf() {
+
+		$theme = wp_get_theme();
+		
+		if ( $this->plugin_name == $theme->name ) {
+
+			/**
+			 * Incorpora o plugin ACF no plugin BVS Notícias.
+			 */
+			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/advanced-custom-fields/acf.php';
+
+			/**
+			 * Registra os custom fields do plugin ACF no plugin BVS Notícias.
+			 */
+			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/custom-fields-groups.php';
+
+		}
+
+	}
+
+	/**
+	 * Register custom post types and taxonomies
+	 *
+	 * @since    1.0.0
+	 * @access   private
+	 */
+	private function load_cpt() {
+
+		$theme = wp_get_theme();
+		
+		if ( $this->plugin_name == $theme->name ) {
+
+			$plugin_admin = new BVS_Noticias_Admin( $this->get_plugin_name(), $this->get_version() );
+
+			$this->loader->add_action( 'init', $plugin_admin, 'register_cpt_news' );
+			$this->loader->add_action( 'init', $plugin_admin, 'register_cpt_clipping' );
+			$this->loader->add_action( 'init', $plugin_admin, 'register_tax_news_source' );
+
+		}
 
 	}
 

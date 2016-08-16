@@ -107,6 +107,27 @@ class BVS_Noticias_Admin {
 	}
 
 	/**
+	 * Registra os temas do plugin BVS Agenda de Eventos
+	 *
+	 * @since     1.0.0
+	 */
+	public function bvs_news_register_theme() {
+		$path = WP_PLUGIN_DIR . '/' . $this->plugin_name . '/wp-themes';
+		register_theme_directory( $path );
+	}
+
+	public function bvs_news_admin_notices() {
+		$theme = wp_get_theme();
+		
+		if ( 'VHL News' != $theme->name && is_plugin_active( 'bvs-noticias/bvs-noticias.php' ) ) {
+			if ( is_multisite() )
+	        	echo "<div class='notice notice-error'><p>" .  __( 'For the correct operation of the <b>VHL News plugin</b>, activate the <b>VHL News theme</b> in the network and then activate the theme on this site.', 'bvs-noticias' ) . "</p></div>";
+	        else
+	        	echo "<div class='notice notice-error'><p>" .  __( 'For the correct operation of the <b>VHL News plugin</b>, activate the <b>VHL News theme</b>.', 'bvs-noticias' ) . "</p></div>";
+	    }
+	}
+
+	/**
 	 * Função que registra o custom post type News
 	 *
 	 * @since     1.0.0

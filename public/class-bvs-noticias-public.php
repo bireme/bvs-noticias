@@ -100,14 +100,4 @@ class BVS_Noticias_Public {
 
 	}
 
-	/**
-	 * Registra os temas do plugin BVS Agenda de Eventos
-	 *
-	 * @since     1.0.0
-	 */
-	public function bvs_news_register_theme() {
-		$path = WP_PLUGIN_DIR . '/' . $this->plugin_name . '/wp-themes';
-		register_theme_directory( $path );
-	}
-
 }
