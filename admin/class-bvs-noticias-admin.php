@@ -107,7 +107,7 @@ class BVS_Noticias_Admin {
 	}
 
 	/**
-	 * Registra os temas do plugin BVS Agenda de Eventos
+	 * Registra os temas do plugin BVS Notícias
 	 *
 	 * @since     1.0.0
 	 */
