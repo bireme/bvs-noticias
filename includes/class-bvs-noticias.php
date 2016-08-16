@@ -184,10 +184,8 @@ class BVS_Noticias {
 	 * @access   private
 	 */
 	private function load_acf() {
-
-		$theme = wp_get_theme();
 		
-		if ( $this->plugin_name == $theme->name ) {
+		if ( $this->plugin_name == get_stylesheet() ) {
 
 			/**
 			 * Incorpora o plugin ACF no plugin BVS Notícias.
@@ -210,10 +208,8 @@ class BVS_Noticias {
 	 * @access   private
 	 */
 	private function load_cpt() {
-
-		$theme = wp_get_theme();
 		
-		if ( $this->plugin_name == $theme->name ) {
+		if ( $this->plugin_name == get_stylesheet() ) {
 
 			$plugin_admin = new BVS_Noticias_Admin( $this->get_plugin_name(), $this->get_version() );
 
