@@ -18,10 +18,26 @@ Tags: three-columns, right-sidebar
 /* Styles for the child theme
 -------------------------------------------------------------- */
 .hide, .screen-reader-text {display: none;}
+.container{ box-shadow: 0px 0px 6px 6px #E6E6E6;}
+.container h3 {border-bottom: 1px solid !important;}
 .column_1 {margin-right:1em;}
-.entire-column {width: auto};
+.column_1 .widget {
+    margin-left: 30px;}
+.header {
+  height: 147px !important; 
+}
+.entire-column {width: auto;}
+#parent {
+    margin: 65px 50px 11px 20px !important;
+    float: left !important;
+}
+.column strong.widget-title {
+   
+    color: #e86127;}
+#search-3{background: #efeeed;
+    margin-bottom: 30px;}
 #parent a {display:block;}
-.site_name {font-size: 200% !important;margin-left: 15px;}
+.site_name {font-size: 200% !important;margin-left: 15px;   margin-top: 70px !important;}
 .site_name a {color:#005BA0;text-decoration: none;}
 .headerWidget {margin: 4px 8px 0 0 !important;}
 .headerWidget a {text-decoration: none;}
@@ -50,7 +66,7 @@ Tags: three-columns, right-sidebar
 .article-list {margin-top:1.5em;}
 section header a.link-to-home, section header a.link-to-home:visited {color:#005BA0;text-decoration: none;text-transform: uppercase;}
 section header a.link-to-home:hover {color:#00CCFF;}
-section header.page-header {margin:0 0 5px 0 !important;padding:0 !important;border-bottom: 1px solid #7F96C4 !important;}
+section header.page-header {margin:5px  10px 0 !important;padding:0 !important;}
 section header.page-header strong {line-height: 150% !important;color: #000 !important;display:inline-block;}
 .column_1 article {padding: 0 1em 1em 1em !important;display: block;margin-bottom: 1.5em;border-bottom: 1px solid #ddd;}
 article header .entry-meta {margin-bottom: 0 !important;}
@@ -129,10 +145,23 @@ button, input, textarea {border: 1px solid #5B85C5;}
 .column_2 .addthis_toolbox {display: none;}
 .top_sidebar { clear: both; }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
 	.thumb-img {width: 33%}
 	.thumb-img .entry-image {margin-bottom:0 !important;}
 	.site_name {width: 50%;}
 	.widget_search {padding:.8rem 0 .8rem 0;}
 	.widget_search form #s {width:8rem;}
+	#parent{ margin-top: 0px !important;}
+	.site_name{ margin-top: 0px !important; width: 100% !important;}
+	.metaslider img{height: 200px !important;}
 }
+@media (max-width: 360px) {	#parent{ margin-top: 0px !important;}
+	.site_name{ margin-top: 0px !important; width: 100% !important;}
+	.metaslider img{height: 200px !important;}}
+@media (max-width: 412px) {	#parent{ margin-top: 0px !important;}
+	.site_name{ margin-top: 0px !important; width: 100% !important;}.metaslider img{height: 200px !important;}}
+@media (max-width: 375px) {	#parent{ margin-top: 0px !important;}
+	.site_name{ margin-top: 0px !important; width: 100% !important;}.metaslider img{height: 200px !important;}}
+@media (max-width: 414px) {	#parent{ margin-top: 0px !important;}
+	.site_name{ margin-top: 0px !important; width: 100% !important;}.metaslider img{height: 200px !important;}}
+
