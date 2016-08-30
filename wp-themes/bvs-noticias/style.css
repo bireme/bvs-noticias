@@ -165,4 +165,9 @@ button, input, textarea {border: 1px solid #5B85C5;}
 	.site_name{ margin-top: 0px !important; width: 100% !important;}.metaslider img{height: 200px !important;}.entry-source-url .entry-list a{ word-wrap: break-word;}}
 @media (max-width: 414px) {	#parent{ margin-top: 0px !important;}
 	.site_name{ margin-top: 0px !important; width: 100% !important;}.metaslider img{height: 200px !important;}.entry-source-url .entry-list a{ word-wrap: break-word;}}
+	@media (max-width: 375px) {	#parent{ margin-top: 0px !important;}
+	.site_name{ margin-top: 0px !important; width: 100% !important;}.metaslider img{height: 200px !important;}.entry-source-url .entry-list a{ word-wrap: break-word;}}
+@media (max-width: 568px) {	#parent{ margin-top: 0px !important;}
+	.site_name{ margin-top: 0px !important; width: 100% !important;}.metaslider img{height: 200px !important;}.entry-source-url .entry-list a{ word-wrap: break-word;}}
+
 
