@@ -16,6 +16,13 @@
  * @since Twenty Fifteen 1.0
  */
 
+$cat_obj = get_taxonomy( 'category' );
+$cat_post_types = $cat_obj->object_type;
+$formdata = array( 'post_type' => $cat_post_types );
+$build_query = http_build_query($formdata);
+$cat_link = get_category_link($cat);
+$cat_feed_rss = $cat_link.'feed/?'.$build_query;
+
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 query_posts( array( 'post_type' => 'any', 'cat' => $cat, 'paged' => $paged ) );
 
@@ -25,11 +32,11 @@ get_header(); ?>
 		<section id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 				<header class="page-header">
-					<a class="link-to-home" href="<?php echo get_bloginfo( 'url' )?>">Home</a> / 
+					<a class="link-to-home" href="<?php echo get_bloginfo( 'url' ); ?>">Home</a> / 
 					<?php
 						the_archive_title( '<strong class="page-title">', '</strong>' );
 					?>
-					<div class="rss-icn"><a href="<?php echo get_bloginfo( 'url' )?>/feed"><i class="fa fa-rss-square"></i> RSS feed</a></div>
+					<div class="rss-icn"><a href="<?php echo $cat_feed_rss; ?>"><i class="fa fa-rss-square"></i> RSS feed</a></div>
 				</header><!-- .page-header -->
 				<div class="article-list">
 					<?php while ( have_posts() ) : the_post(); ?>

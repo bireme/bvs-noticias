@@ -16,16 +16,9 @@
  * @since Twenty Fifteen 1.0
  */
 
-$tag_obj = get_taxonomy( 'post_tag' );
-$tag_post_types = $tag_obj->object_type;
-$formdata = array( 'post_type' => $tag_post_types );
-$build_query = http_build_query($formdata);
-$tag_id = get_queried_object()->term_id;
-$tag_link = get_tag_link($tag_id);
-$tag_feed_rss = $tag_link.'feed/?'.$build_query;
-
-$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-query_posts( array( 'post_type' => 'any', 'tag' => $tag, 'paged' => $paged ) );
+$tax_id = get_queried_object()->term_id;
+$tax_link = get_category_link($tax_id);
+$tax_feed_rss = $tax_link.'feed';
 
 get_header(); ?>
 
@@ -37,7 +30,7 @@ get_header(); ?>
 					<?php
 						the_archive_title( '<strong class="page-title">', '</strong>' );
 					?>
-					<div class="rss-icn"><a href="<?php echo $tag_feed_rss; ?>"><i class="fa fa-rss-square"></i> RSS feed</a></div>
+					<div class="rss-icn"><a href="<?php echo $tax_feed_rss; ?>"><i class="fa fa-rss-square"></i> RSS feed</a></div>
 				</header><!-- .page-header -->
 				<div class="article-list">
 					<?php while ( have_posts() ) : the_post(); ?>
